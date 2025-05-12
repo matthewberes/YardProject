@@ -5,13 +5,21 @@
     height: 100%;
 }
 
+.flex {
+    display: flex;
+    min-height: 75%;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .header {
     height: 8rem;
     flex-basis: 100%;
     padding: .5rem;
     border-bottom: 1px solid rgba(255, 255, 255, .4);
-    background: url(../../public/green-fake-grass-background.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background-color: rgba(0, 155, 58, .7);
+    /* background: url(../../public/green-fake-grass-background.jpg) no-repeat center center fixed;
+    background-size: cover; */
 }
 
 .margin {
@@ -21,13 +29,11 @@
     background-color: #eeeeee;
 }
 
-.main {
-    flex-basis: 80%;
-    min-height: 75%;
-    box-sizing: border-box;
-    overflow: hidden;
+router-outlet {
+    text-align: center;
     background-color: #fafafa;
 }
+
 
 .footer {
     height: 5.1rem;
@@ -35,5 +41,5 @@
     border-top: 1px solid rgba(255, 255, 255, .4);
     position: relative;
     bottom: 0;
-    background-color: rgba(255, 255, 0, 1);
+    background-color: rgba(255, 255, 0, .7);
 }

@@ -1,7 +1,11 @@
 <div class="content">
     <app-header class="header"></app-header>
-    <app-ad class="margin"></app-ad>
-    <router-outlet class="main" />
-    <app-ad class="margin"></app-ad>
+    <div class="flex">
+        <app-ad class="margin"></app-ad>
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+        <app-ad class="margin"></app-ad>
+    </div>
     <app-footer class="footer"></app-footer>
 </div>

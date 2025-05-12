@@ -1,6 +1,16 @@
+.flex {
+    display: flex;
+}
+
+img {
+    width: auto;
+    height: 125px;
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    -webkit-font-smoothing: antialiased;
     color: yellow;
     font-size: 48pt;
 }
