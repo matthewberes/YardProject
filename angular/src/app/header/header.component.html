@@ -1,4 +1,9 @@
 <div class="flex">
     <img src="logo.png" alt="Logo" class="logo" />
     <h1>Ontario Lawn Book</h1>
+    <div class="taskbar">
+        <a href="/home" class="taskbar-item" [ngStyle]="path == '/home' ? {'text-decoration': 'underline'}: {}">Home</a>
+        <a href="/index" class="taskbar-item"
+            [ngStyle]="path == '/index' ? {'text-decoration': 'underline'}: {}">Index</a>
+    </div>
 </div>
