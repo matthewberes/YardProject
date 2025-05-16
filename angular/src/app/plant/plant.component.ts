@@ -1,6 +1,8 @@
 import { NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { PlantService } from '../plant.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-plant',
@@ -9,21 +11,27 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './plant.component.css'
 })
 export class PlantComponent implements OnInit {
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private plantService: PlantService, private http: HttpClient) { }
 
-  plantList = ["dandelion", "hawkweed", "hedge-bedstraw", "creeping-charlie"];
   plantParam: string;
-  currPlant: string;
-  set404: boolean = false;
+  currPlant: any = "Plant not found...";
+  set404: boolean = true;
 
   ngOnInit(): void {
-    this.plantParam = this.route.snapshot.paramMap.get('plant');
-    if (this.plantList.includes(this.plantParam)) {
-      this.currPlant = this.plantParam;
+    if (this.plantService.currPlant.value) {
+      this.currPlant = this.plantService.currPlant.value;
+      this.set404 = false
     } else {
-      this.currPlant = "Plant not found...";
-      this.set404 = true;
+      this.plantParam = this.route.snapshot.paramMap.get('plant');
+      this.http.get<any>('plant-index.json').subscribe(data => {
+        let plants = data.plants;
+        plants.forEach(plant => {
+          if (plant.link == this.plantParam) {
+            this.currPlant = plant
+            this.set404 = false
+          }
+        })
+      });
     }
-
   }
 }
