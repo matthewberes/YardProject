@@ -3,10 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PlantService } from '../plant.service';
 import { HttpClient } from '@angular/common/http';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 @Component({
   selector: 'app-plant',
-  imports: [NgIf],
+  imports: [NgIf, CdkAccordionModule],
   templateUrl: './plant.component.html',
   styleUrl: './plant.component.css'
 })

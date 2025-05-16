@@ -7,6 +7,25 @@
         </p>
     </div>
 </ng-container>
+<cdk-accordion>
+    <cdk-accordion-item #accordionItem="cdkAccordionItem" class="example-accordion-item">
+        <button class="example-accordion-item-header" (click)="accordionItem.toggle()" tabindex="0" [attr.id]="'test'"
+            [attr.aria-expanded]="accordionItem.expanded" [attr.aria-controls]="'test'">
+            deez
+            <span class="example-accordion-item-description">
+                Click to {{ accordionItem.expanded ? 'close' : 'open' }}
+            </span>
+        </button>
+        @if(accordionItem.expanded) {
+        <div class="example-accordion-item-body" role="region" [style.display]="accordionItem.expanded ? '' : 'none'"
+            [attr.id]="'test'" [attr.aria-labelledby]="'test'">
+            Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Perferendis excepturi incidunt ipsum
+            deleniti labore, tempore non nam doloribus blanditiis veritatis illo autem iure aliquid ullam
+            rem tenetur deserunt velit culpa?
+        </div>
+        }
+    </cdk-accordion-item>
+</cdk-accordion>
 
 <ng-container *ngIf="set404">
     <h2>404 Plant Not Found</h2>
