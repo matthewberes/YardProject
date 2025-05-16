@@ -29,6 +29,12 @@
     background-color: #eeeeee;
 }
 
+.main {
+    width: 79%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 router-outlet {
     text-align: center;
     background-color: #fafafa;

@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class PlantComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
-  plantList = ["Dandelion", "Hawkweed", "Hedge Bedstraw", "Creeping Charlie"];
+  plantList = ["dandelion", "hawkweed", "hedge-bedstraw", "creeping-charlie"];
   plantParam: string;
   currPlant: string;
   set404: boolean = false;
