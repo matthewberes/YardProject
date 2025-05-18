@@ -10,8 +10,8 @@ h3 {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
 }
 
 h3 {
@@ -28,8 +28,7 @@ h3 {
 
 p {
     margin-top: 0px;
-    margin-left: 15px;
-    width: 60%;
+    margin-right: 15px;
 }
 
 .no-plant {
@@ -39,10 +38,10 @@ p {
 }
 
 
-
 .example-accordion {
     display: block;
-    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .example-accordion-item {

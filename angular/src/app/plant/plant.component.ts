@@ -1,4 +1,4 @@
-import { NgIf } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PlantService } from '../plant.service';
@@ -17,6 +17,8 @@ export class PlantComponent implements OnInit {
   plantParam: string;
   currPlant: any = "Plant not found...";
   set404: boolean = true;
+  accordionTitles: string[] = ["Origins", "Removal", "Pros", "Cons", "Notes"];
+  expandedIndex = 0;
 
   ngOnInit(): void {
     if (this.plantService.currPlant.value) {
