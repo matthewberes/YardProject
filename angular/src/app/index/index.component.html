@@ -1,11 +1,14 @@
 <ng-container *ngFor="let plant of plants">
     <div class="card" (click)="onCardClick(plant)">
-        <img src="{{ plant.image }}" alt="{{ plant.name }}" class="plant-image" />
-        <h2>{{ plant.name }}</h2>
-        <h3>{{ plant.taxonomy }}</h3>
-        <p>{{ plant.description }}</p>
-
-        <hr />
-
+        <div class="image-div">
+            <img src="{{ plant.image }}" alt="{{ plant.name }}" class="plant-image" />
+        </div>
+        <div>
+            <h2>{{ plant.name }}</h2>
+            <h3>(<span class="taxonomy">{{ plant.taxonomy }}</span>)</h3>
+            <p>{{ plant.description }}</p>
+        </div>
     </div>
+    <!-- TODO: if last item, no hr -->
+    <hr>
 </ng-container>

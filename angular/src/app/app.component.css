@@ -31,8 +31,7 @@
 
 .main {
     width: 79%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 router-outlet {

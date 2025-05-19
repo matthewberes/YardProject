@@ -1,8 +1,44 @@
 .card {
     width: 100%;
+    display: flex;
+}
+
+
+.image-div {
+    border: 1px solid black;
+    width: fit-content;
 }
 
 img {
-    width: 188px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
+    clip-path: inset(25px 0px 25px 0px);
+    margin-top: -25px;
+    margin-bottom: -29px;
+}
+
+h2 {
+    margin: 0px 0px 5px 10px;
+}
+
+h3 {
+    margin: 0px 0px 5px 10px;
+    color: #808080;
+}
+
+.taxonomy {
+    font-style: italic;
+}
+
+p {
+    width: 100%;
+    margin: 0px 0px 5px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+hr {
+    margin-bottom: 10px;
 }
