@@ -31,4 +31,8 @@ export class HeaderComponent {
         }
       });
   }
+
+  onLogoClick(): void {
+    this.router.navigate(['/home']);
+  }
 }

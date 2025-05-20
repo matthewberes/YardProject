@@ -37,4 +37,9 @@ export class PlantComponent implements OnInit {
       });
     }
   }
+
+  goBack(): void {
+    this.plantService.currPlant.next(null);
+    window.history.back();
+  }
 }

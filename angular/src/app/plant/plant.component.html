@@ -1,6 +1,7 @@
+<img src="left-arrow.png" class="back-arrow" (click)="goBack()" alt="Back">
 <ng-container *ngIf="!set404">
     <h2>{{currPlant.name}}</h2>
-    <h3>({{currPlant.taxonomy}})</h3>
+    <h3>{{currPlant.taxonomy}}</h3>
     <div class="flex">
         <p>{{currPlant.description}}
         </p>

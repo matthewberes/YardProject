@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.card:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
 
 .image-div {
     border: 1px solid black;
@@ -24,10 +29,8 @@ h2 {
 h3 {
     margin: 0px 0px 5px 10px;
     color: #808080;
-}
-
-.taxonomy {
     font-style: italic;
+    opacity: 0.6;
 }
 
 p {
