@@ -1,6 +1,28 @@
 {
     "plants": [
         {
+            "name": "Broadleaf Plantain",
+            "image": "Weeds/broadleaf-plantain.png",
+            "taxonomy": "Plantago major",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "broadleaf-plantain"
+        },
+        {
+            "name": "Common Cinquefoil",
+            "image": "Weeds/common-cinquefoil.png",
+            "taxonomy": "Potentilla simplex",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "common-cinquefoil"
+        },
+        {
             "name": "Common Dandelion",
             "image": "Weeds/dandelion.png",
             "taxonomy": "Taraxacum officinale",
@@ -12,15 +34,158 @@
             "link": "dandelion"
         },
         {
-            "name": "test1",
-            "image": "",
-            "taxonomy": "",
-            "description": "",
+            "name": "Common Selfheal",
+            "image": "Weeds/common-selfheal.png",
+            "taxonomy": "Prunella vulgaris",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "origins": "",
             "removal": "",
             "pros": "",
             "cons": "",
-            "link": ""
+            "link": "common-selfheal"
+        },
+        {
+            "name": "Common Yarrow",
+            "image": "Weeds/common-yarrow.png",
+            "taxonomy": "Achillea millefolium",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "common-yarrow"
+        },
+        {
+            "name": "Corn Speedwell",
+            "image": "Weeds/corn-speedwell.png",
+            "taxonomy": "Veronica arvensis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "corn-speedwell"
+        },
+        {
+            "name": "Field Horsetail",
+            "image": "Weeds/field-horsetail.png",
+            "taxonomy": "Equisetum arvense",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "field-horsetail"
+        },
+        {
+            "name": "Garden Sorrel",
+            "image": "Weeds/garden-sorrel.png",
+            "taxonomy": "Rumex acetosa",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "garden-sorrel"
+        },
+        {
+            "name": "Hedge Bedstraw",
+            "image": "Weeds/hedge-bedstraw.png",
+            "taxonomy": "Galium mollugo",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "hedge-bedstraw"
+        },
+        {
+            "name": "Horseweed",
+            "image": "Weeds/horseweed.png",
+            "taxonomy": "Erigeron canadensis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "horseweed"
+        },
+        {
+            "name": "Orange Hawkweed",
+            "image": "Weeds/orange-hawkweed.png",
+            "taxonomy": "Pilosella aurantiaca",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "orange-hawkweed"
+        },
+        {
+            "name": "Prarie Agoseris",
+            "image": "Weeds/prarie-agoseris.png",
+            "taxonomy": "Agoseris glauca",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "prarie-agoseris"
+        },
+        {
+            "name": "Red Clover",
+            "image": "Weeds/red-clover.png",
+            "taxonomy": "Trifolium pratense",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "red-clover"
+        },
+        {
+            "name": "Ribwort Plantain",
+            "image": "Weeds/ribwort-plantain.png",
+            "taxonomy": "Plantago lanceolata",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "ribwort-plantain"
+        },
+        {
+            "name": "Silver Cinquefoil",
+            "image": "Weeds/silver-cinquefoil.png",
+            "taxonomy": "Potentilla argentea",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "silver-cinquefoil"
+        },
+        {
+            "name": "White Clover",
+            "image": "Weeds/white-clover.png",
+            "taxonomy": "Trifolium repens",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "white-clover"
+        },
+        {
+            "name": "Wild Strawberry",
+            "image": "Weeds/wild-strawberry.png",
+            "taxonomy": "Fragaria virginiana",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "wild-strawberry"
         }
     ]
 }
