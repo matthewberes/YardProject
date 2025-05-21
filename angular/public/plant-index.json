@@ -26,7 +26,7 @@
             "name": "Common Dandelion",
             "image": "Weeds/common-dandelion.png",
             "taxonomy": "Taraxacum officinale",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "description": "<b>TEST</b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "origins": "",
             "removal": "",
             "pros": "",
@@ -100,6 +100,17 @@
             "link": "hedge-bedstraw"
         },
         {
+            "name": "Hoary Alyssum",
+            "image": "Weeds/hoary-alyssum.png",
+            "taxonomy": "Berteroa incana",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "hoary-alyssum"
+        },
+        {
             "name": "Horseweed",
             "image": "Weeds/horseweed.png",
             "taxonomy": "Erigeron canadensis",
@@ -155,6 +166,17 @@
             "link": "ribwort-plantain"
         },
         {
+            "name": "Rough Hawkbit",
+            "image": "Weeds/rough-hawkbit.png",
+            "taxonomy": "Leontodon hispidus",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "rough-hawkbit"
+        },
+        {
             "name": "Silver Cinquefoil",
             "image": "Weeds/silver-cinquefoil.png",
             "taxonomy": "Potentilla argentea",
@@ -164,6 +186,17 @@
             "pros": "",
             "cons": "",
             "link": "silver-cinquefoil"
+        },
+        {
+            "name": "Viper's Bugloss",
+            "image": "Weeds/vipers-bugloss.png",
+            "taxonomy": "Echium vulgare",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "origins": "",
+            "removal": "",
+            "pros": "",
+            "cons": "",
+            "link": "vipers-bugloss"
         },
         {
             "name": "White Clover",

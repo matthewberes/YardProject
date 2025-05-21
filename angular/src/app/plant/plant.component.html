@@ -14,8 +14,7 @@
     <h2>{{currPlant.name}}</h2>
     <h3>{{currPlant.taxonomy}}</h3>
     <div class="flex">
-        <p>{{currPlant.description}}
-        </p>
+        <div class="description" [innerHTML]="currPlant.description"></div>
         <img src="{{currPlant.image}}" class="image">
     </div>
 

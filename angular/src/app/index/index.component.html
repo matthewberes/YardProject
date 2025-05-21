@@ -6,7 +6,7 @@
         <div>
             <h2>{{ plant.name }}</h2>
             <h3>{{ plant.taxonomy }}</h3>
-            <p>{{ plant.description }}</p>
+            <div class="description" [innerHTML]="plant.description"></div>
         </div>
     </div>
     <ng-container *ngIf="!isLast(plant)">

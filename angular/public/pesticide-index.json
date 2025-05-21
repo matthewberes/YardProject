@@ -1,0 +1,64 @@
+{
+    "pesticides": [
+        {
+            "name": "Ortho Killex",
+            "chemical": "2,4-Dichlorophenoxyacetic acid"
+        },
+        {
+            "name": "Loveland Par III",
+            "chemical": "2,4-D, Mecoprop, Dicamba"
+        },
+        {
+            "name": "Dow Scythe",
+            "chemical": "Pelargonic acid"
+        },
+        {
+            "name": "Roundup",
+            "chemical": "Glyphosate"
+        },
+        {
+            "name": "Scotts Weed-B-Gon",
+            "chemical": "FeHEDTA (Iron chelate)"
+        },
+        {
+            "name": "Wilson Weed Out",
+            "chemical": "4-chloroindole-3-acetic acid"
+        },
+        {
+            "name": "Wilson Wipe Out",
+            "chemical": "Ammonium salt of fatty acid"
+        },
+        {
+            "name": "Neudorff Fiesta",
+            "chemical": "FeHEDTA (Iron chelate)"
+        },
+        {
+            "name": "Spectracide Weed Stop",
+            "chemical": "2,4-D, Quinclorac, Dicamba, Sulfentrazone"
+        },
+        {
+            "name": "Bayer Advanced All-in-One",
+            "chemical": "2,4-D, Quinclorac, Dicamba"
+        },
+        {
+            "name": "PBI Gordon Trimec",
+            "chemical": "2,4-D, Mecoprop, Dicamba"
+        },
+        {
+            "name": "Green Earth Weed Control",
+            "chemical": "Acetic acid (Vinegar)"
+        },
+        {
+            "name": "Safer's Top Gun Weed Killer",
+            "chemical": "Potassium Salts of Fatty Acids (Soap)"
+        },
+        {
+            "name": "Totalex Grass and Weed Killer",
+            "chemical": "Glyphosate"
+        },
+        {
+            "name": "Roundup Advanced Herbicidal Soap",
+            "chemical": "Ammonium Soap of Fatty Acids"
+        }
+    ]
+}
