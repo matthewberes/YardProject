@@ -2,10 +2,20 @@ import { Routes } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { PlantComponent } from './plant/plant.component';
 import { HomeComponent } from './home/home.component';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { PesticideIndexComponent } from './pesticide-index/pesticide-index.component';
+import { PesticideComponent } from './pesticide/pesticide.component';
+import { ToolIndexComponent } from './tool-index/tool-index.component';
+import { ToolComponent } from './tool/tool.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
-    { path: 'index', component: IndexComponent },
-    { path: 'plant/:plant', component: PlantComponent }
+    { path: 'maintenance', component: MaintenanceComponent },
+    { path: 'plants', component: IndexComponent },
+    { path: 'plant/:plant', component: PlantComponent },
+    { path: 'pesticides', component: PesticideIndexComponent },
+    { path: 'pesticide/:pesticide', component: PesticideComponent },
+    { path: 'tools', component: ToolIndexComponent },
+    { path: 'tool/:tool', component: ToolComponent },
 ];
