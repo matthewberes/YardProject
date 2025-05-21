@@ -1,0 +1,51 @@
+.card {
+    width: 100%;
+    display: flex;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+
+.image-div {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    clip-path: inset(25px 0px 25px 0px);
+    margin-top: -25px;
+    margin-bottom: -29px;
+}
+
+h2 {
+    font-size: 24pt;
+    margin: 0px 0px 0px 10px;
+}
+
+h3 {
+    margin: 0px 0px 10px 10px;
+    color: #808080;
+    font-size: 18pt;
+    font-style: italic;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.description {
+    width: 99.2%;
+    margin: 0px 0px 5px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-right: 100px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
