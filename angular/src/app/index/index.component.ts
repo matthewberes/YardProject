@@ -26,4 +26,9 @@ export class IndexComponent implements OnInit {
     this.plantService.currPlant.next(plant);
     this.router.navigate(['/plant', plant.link]);
   }
+
+  isLast(plant: any): boolean {
+    let length = this.plants.length - 1;
+    return this.plants[length].name === plant.name;
+  }
 }

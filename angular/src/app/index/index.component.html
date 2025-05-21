@@ -9,6 +9,7 @@
             <p>{{ plant.description }}</p>
         </div>
     </div>
-    <!-- TODO: if last item, no hr -->
-    <hr>
+    <ng-container *ngIf="!isLast(plant)">
+        <hr>
+    </ng-container>
 </ng-container>
