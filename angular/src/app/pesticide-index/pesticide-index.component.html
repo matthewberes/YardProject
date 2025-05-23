@@ -1,12 +1,11 @@
 <ng-container *ngFor="let pesticide of pesticides">
     <div class="card" (click)="onCardClick(pesticide)">
-        <div class="image-div">
-            <!-- <img src="{{ pesticide.image }}" alt="{{ pesticide.name }}" class="pesticide-image" /> -->
-        </div>
+        <img src="{{ pesticide.image }}" alt="{{ pesticide.name }}" class="pesticide-image" />
+
         <div>
             <h2>{{ pesticide.name }}</h2>
             <h3>{{ pesticide.chemical }}</h3>
-            <!-- <div class="description" [innerHTML]="pesticide.description"></div> -->
+            <div class="description" [innerHTML]="pesticide.description"></div>
         </div>
     </div>
     <ng-container *ngIf="!isLast(pesticide)">

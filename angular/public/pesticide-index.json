@@ -2,63 +2,183 @@
     "pesticides": [
         {
             "name": "Ortho Killex",
-            "chemical": "2,4-Dichlorophenoxyacetic acid"
+            "chemical": "2,4-Dichlorophenoxyacetic acid",
+            "image": "Pesticides/ortho-killex.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "ortho-killex"
         },
         {
             "name": "Loveland Par III",
-            "chemical": "2,4-D, Mecoprop, Dicamba"
+            "chemical": "2,4-D, Mecoprop, Dicamba",
+            "image": "Pesticides/loveland-par-iii.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "loveland-par-iii"
         },
         {
             "name": "Dow Scythe",
-            "chemical": "Pelargonic acid"
+            "chemical": "Pelargonic acid",
+            "image": "Pesticides/dow-scythe.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "dow-scythe"
         },
         {
             "name": "Roundup",
-            "chemical": "Glyphosate"
+            "chemical": "Glyphosate",
+            "image": "Pesticides/roundup.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "roundup"
         },
         {
-            "name": "Scotts Weed-B-Gon",
-            "chemical": "FeHEDTA (Iron chelate)"
+            "name": "Scotts Weed-B-Gon MAX",
+            "chemical": "FeHEDTA (Iron chelate)",
+            "image": "Pesticides/scotts-weed-b-gon-max.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "scotts-weed-b-gon-max"
         },
         {
             "name": "Wilson Weed Out",
-            "chemical": "4-Chloroindole-3-acetic acid"
+            "chemical": "4-Chloroindole-3-acetic acid",
+            "image": "Pesticides/wilson-weed-out.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "wilson-weed-out"
         },
         {
             "name": "Wilson Wipe Out",
-            "chemical": "Ammonium salt of fatty acid"
+            "chemical": "Ammonium salt of fatty acid",
+            "image": "Pesticides/wilson-wipe-out.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "wilson-wipe-out"
         },
         {
             "name": "Neudorff Fiesta",
-            "chemical": "FeHEDTA (Iron chelate)"
+            "chemical": "FeHEDTA (Iron chelate)",
+            "image": "Pesticides/nuedorff-fiesta.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "neudorff-fiesta"
         },
         {
             "name": "Spectracide Weed Stop",
-            "chemical": "2,4-D, Quinclorac, Dicamba, Sulfentrazone"
+            "chemical": "2,4-D, Quinclorac, Dicamba, Sulfentrazone",
+            "image": "Pesticides/spectracide-weed-stop.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "spectracide-weed-stop"
         },
         {
             "name": "Bayer Advanced All-in-One",
-            "chemical": "2,4-D, Quinclorac, Dicamba"
+            "chemical": "2,4-D, Quinclorac, Dicamba",
+            "image": "Pesticides/bayer-advanced-all-in-one.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "bayer-advanced-all-in-one"
         },
         {
-            "name": "PBI Gordon Trimec",
-            "chemical": "2,4-D, Mecoprop, Dicamba"
+            "name": "Gordon's Trimec",
+            "chemical": "2,4-D, Mecoprop, Dicamba",
+            "image": "Pesticides/gordons-trimec.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "gordons-trimec"
         },
         {
             "name": "Green Earth Weed Control",
-            "chemical": "Acetic acid (Vinegar)"
+            "chemical": "Acetic acid (Vinegar)",
+            "image": "Pesticides/green-earth-weed-control.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "green-earth-weed-control"
         },
         {
-            "name": "Safer's Top Gun Weed Killer",
-            "chemical": "Potassium Salts of Fatty Acids (Soap)"
+            "name": "Safer's TopGun Weed Killer",
+            "chemical": "Potassium Salts of Fatty Acids (Soap)",
+            "image": "Pesticides/safers-topgun-weed-killer.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "safers-topgun-weed-killer"
         },
         {
-            "name": "Totalex Grass and Weed Killer",
-            "chemical": "Glyphosate"
+            "name": "Totalex Weed Control",
+            "chemical": "Glyphosate",
+            "image": "Pesticides/totalex-weed-control.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "totalex-grass-and-weed-killer"
         },
         {
             "name": "Roundup Advanced Herbicidal Soap",
-            "chemical": "Ammonium Soap of Fatty Acids"
+            "chemical": "Ammonium Soap of Fatty Acids",
+            "image": "Pesticides/roundup-advanced.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "application": "",
+            "legality": "",
+            "pros": "",
+            "cons": "",
+            "notes": "",
+            "link": "roundup-advanced-herbicidal-soap"
         }
     ]
 }
