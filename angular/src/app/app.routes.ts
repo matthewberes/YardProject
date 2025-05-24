@@ -8,6 +8,9 @@ import { PesticideComponent } from './pesticide/pesticide.component';
 import { ToolIndexComponent } from './tool-index/tool-index.component';
 import { ToolComponent } from './tool/tool.component';
 import { InsectIndexComponent } from './insect-index/insect-index.component';
+import { InsecticideIndexComponent } from './insecticide-index/insecticide-index.component';
+import { InsectComponent } from './insect/insect.component';
+import { InsecticideComponent } from './insecticide/insecticide.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -20,5 +23,7 @@ export const routes: Routes = [
     { path: 'tools', component: ToolIndexComponent },
     { path: 'tool/:tool', component: ToolComponent },
     { path: 'insects', component: InsectIndexComponent },
-    { path: 'insect/:insect', component: InsectIndexComponent },
+    { path: 'insect/:insect', component: InsectComponent },
+    { path: 'insecticide', component: InsecticideIndexComponent },
+    { path: 'insecticide/:insecticide', component: InsecticideComponent },
 ];
