@@ -1,0 +1,154 @@
+{
+    "insects": [
+        {
+            "name": "Ant",
+            "taxonomy": "Formicidae",
+            "image": "Insects/ant.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "ant"
+        },
+        {
+            "name": "Aphid",
+            "taxonomy": "Aphidoidea",
+            "image": "Insects/aphid.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "aphid"
+        },
+        {
+            "name": "Armyworm",
+            "taxonomy": "Spodoptera",
+            "image": "Insects/armyworm.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "armyworm"
+        },
+        {
+            "name": "Billbug",
+            "taxonomy": "Sphenophorus",
+            "image": "Insects/billbug.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "billbug"
+        },
+        {
+            "name": "Chinch Bug",
+            "taxonomy": "Blissidae",
+            "image": "Insects/chinch-bug.jpeg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "chinch-bug"
+        },
+        {
+            "name": "Cutworm",
+            "taxonomy": "Noctuidae",
+            "image": "Insects/cutworm.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "cutworm"
+        },
+        {
+            "name": "Earwig",
+            "taxonomy": "Dermaptera",
+            "image": "Insects/earwig.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "earwig"
+        },
+        {
+            "name": "Japanese Beetle",
+            "taxonomy": "Popillia japonica",
+            "image": "Insects/japanese-beetle.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "japanese-beetle"
+        },
+        {
+            "name": "Leafhopper",
+            "taxonomy": "Cicadellidae",
+            "image": "Insects/leafhopper.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "leafhopper"
+        },
+        {
+            "name": "Leatherjacket",
+            "taxonomy": "Tipulidae",
+            "image": "Insects/leatherjacket.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "leatherjacket"
+        },
+        {
+            "name": "Mole Cricket",
+            "taxonomy": "Gryllotalpidae",
+            "image": "Insects/mole-cricket.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "mole-cricket"
+        },
+        {
+            "name": "Sod Webworm",
+            "taxonomy": "Crambidae",
+            "image": "Insects/sod-webworm.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "sod-webworm"
+        },
+        {
+            "name": "Spider Mite",
+            "taxonomy": "Tetranychidae",
+            "image": "Insects/spider-mite.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "spider-mite"
+        },
+        {
+            "name": "Turfgrass Scale",
+            "taxonomy": "Coccoidea",
+            "image": "Insects/turfgrass-scale.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "turfgrass-scale"
+        },
+        {
+            "name": "White Grub",
+            "taxonomy": "Scarabaeidae",
+            "image": "Insects/white-grub.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "origins": "",
+            "removal": "",
+            "notes": "",
+            "link": "white-grub"
+        }
+    ]
+}

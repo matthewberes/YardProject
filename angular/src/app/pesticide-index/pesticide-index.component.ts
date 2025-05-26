@@ -24,7 +24,7 @@ export class PesticideIndexComponent {
 
   onCardClick(pesticide: any): void {
     this.pesticideService.currPesticide.next(pesticide);
-    this.router.navigate(['/pesticide', pesticide.link]);
+    this.router.navigate(['/herbicide', pesticide.link]);
   }
 
   isLast(plant: any): boolean {
