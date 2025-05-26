@@ -9,7 +9,7 @@
 
 img {
     width: auto;
-    height: 125px;
+    height: 100px;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
     -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: black;
     color: yellow;
-    font-size: 48pt;
+    font-size: 42pt;
 }
 
 .taskbar {

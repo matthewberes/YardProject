@@ -18,7 +18,7 @@ export class PesticideIndexComponent {
   ngOnInit(): void {
     this.http.get<any>('pesticide-index.json').subscribe(data => {
       this.pesticides = data.pesticides;
-      this.pesticideService.allPesticides = data.plants;
+      this.pesticideService.allPesticides = data.pesticides;
     });
   }
 
