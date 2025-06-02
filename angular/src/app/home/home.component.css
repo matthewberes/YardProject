@@ -57,6 +57,11 @@
     font-weight: 500;
 }
 
+hr {
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
 .social-header {
     text-align: center;
     margin-top: 20px;

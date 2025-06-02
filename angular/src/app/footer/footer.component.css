@@ -1,0 +1,29 @@
+.flex-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.copyright {
+    margin: 10px 10px 0px 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px 10px 0px 10px;
+}
+
+.item:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.vl {
+    margin-top: 6px;
+    border-left: 2px solid black;
+    height: 25px;
+}

@@ -8,7 +8,7 @@
 
 .flex {
     display: flex;
-    min-height: 80%;
+    min-height: 83%;
     width: 100%;
     justify-content: space-between;
 }
@@ -19,8 +19,6 @@
     padding: .5rem;
     border-bottom: 1px solid rgba(255, 255, 255, .4);
     background-color: rgba(0, 155, 58, .7);
-    /* background: url(../../public/green-fake-grass-background.jpg) no-repeat center center fixed;
-    background-size: cover; */
 }
 
 .margin {
@@ -42,7 +40,7 @@ router-outlet {
 
 
 .footer {
-    min-height: 5.1rem;
+    min-height: 2.25rem;
     flex-basis: 100%;
     border-top: 1px solid rgba(255, 255, 255, .4);
     position: relative;
