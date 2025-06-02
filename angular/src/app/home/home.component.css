@@ -1,0 +1,47 @@
+.slogan {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 39cqw;
+    height: 24.30cqw;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -5px;
+}
+
+.button {
+    background-color: aqua;
+    height: 11.8cqw;
+    width: 11.8cqw;
+    margin: 5px;
+    flex-basis: 20%;
+}
+
+.social-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-basis: 99%;
+}
+
+img {
+    width: 4cqw;
+    height: 4cqw;
+    margin: 0 10px;
+}

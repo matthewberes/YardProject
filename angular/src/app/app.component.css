@@ -1,8 +1,9 @@
 .content {
     display: flex;
     flex-wrap: wrap;
-    min-width: 100%;
+    min-width: 1000px;
     height: 100%;
+
 }
 
 .flex {
@@ -13,7 +14,7 @@
 }
 
 .header {
-    height: 6.4rem;
+    height: 6cqw;
     flex-basis: 100%;
     padding: .5rem;
     border-bottom: 1px solid rgba(255, 255, 255, .4);
