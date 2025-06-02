@@ -5,8 +5,6 @@
     </div>
     <div class="taskbar">
         <a href="/home" class="taskbar-item" [ngStyle]="path == '/home' ? {'text-decoration': 'underline'}: {}">Home</a>
-        <a href="/maintenance" class="taskbar-item"
-            [ngStyle]="path == '/maintenance' ? {'text-decoration': 'underline'}: {}">Maintenance</a>
         <a href="/plants" class="taskbar-item"
             [ngStyle]="path == '/plants' ? {'text-decoration': 'underline'}: {}">Plants</a>
         <a href="/herbicides" class="taskbar-item"
@@ -15,6 +13,8 @@
             [ngStyle]="path == '/insects' ? {'text-decoration': 'underline'}: {}">Insects</a>
         <a href="/insecticide" class="taskbar-item"
             [ngStyle]="path == '/insecticide' ? {'text-decoration': 'underline'}: {}">Insecticides</a>
+        <a href="/maintenance" class="taskbar-item"
+            [ngStyle]="path == '/maintenance' ? {'text-decoration': 'underline'}: {}">Maintenance</a>
         <a href="/tools" class="taskbar-item"
             [ngStyle]="path == '/tools' ? {'text-decoration': 'underline'}: {}">Tools</a>
     </div>

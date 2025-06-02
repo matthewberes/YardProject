@@ -1,6 +1,16 @@
+.header {
+    background-color: yellow;
+    margin-top: -1.28%;
+    margin-left: -1.28%;
+    margin-right: -1.28%;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
 .slogan {
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .flex {
@@ -9,15 +19,23 @@
     justify-content: space-between;
 }
 
-iframe {
-    width: 39cqw;
-    height: 24.30cqw;
+.banner {
+    margin-top: 0px;
+    margin-left: -1.28%;
+    margin-right: -1.28%;
+    margin-bottom: 10px;
+    width: auto;
+    height: 20cqw;
+    background: url(../../../public/banner.webp) no-repeat center center;
+    top: 0;
+    background-size: cover;
 }
 
 .buttons {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1%;
+    margin-right: -1%;
 }
 
 .button {
@@ -25,7 +43,18 @@ iframe {
     height: 11.8cqw;
     width: 11.8cqw;
     margin: 5px;
-    flex-basis: 20%;
+    transition: background 0.2s ease-in-out;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.button-text {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.8cqw;
+    line-height: 11.8cqw;
+    color: white;
+    font-weight: 500;
 }
 
 .social-header {
@@ -40,8 +69,62 @@ iframe {
     flex-basis: 99%;
 }
 
-img {
+.logo {
     width: 4cqw;
     height: 4cqw;
     margin: 0 10px;
+}
+
+.plants {
+    background: url(../../../public/buttons/plants.png) no-repeat center center;
+}
+
+.plants:hover {
+    background: url(../../../public/buttons/plants-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.herbicides {
+    background: url(../../../public/buttons/herbicide.png) no-repeat center center;
+}
+
+.herbicides:hover {
+    background: url(../../../public/buttons/herbicide-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.insects {
+    background: url(../../../public/buttons/insects.png) no-repeat center center;
+}
+
+.insects:hover {
+    background: url(../../../public/buttons/insects-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.insecticides {
+    background: url(../../../public/buttons/insecticide.png) no-repeat center center;
+}
+
+.insecticides:hover {
+    background: url(../../../public/buttons/insecticide-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.tools {
+    background: url(../../../public/buttons/tools.png) no-repeat center center;
+}
+
+.tools:hover {
+    background: url(../../../public/buttons/tools-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.maintenance {
+    background: url(../../../public/buttons/maintenance.png) no-repeat center center;
+}
+
+.maintenance:hover {
+    background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;
+    cursor: pointer;
 }
