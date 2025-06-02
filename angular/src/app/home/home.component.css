@@ -75,6 +75,8 @@
     margin: 0 10px;
 }
 
+/* Regular opacity is 85, Hover opacity is 70, Hex is #126832  */
+
 .plants {
     background: url(../../../public/buttons/plants.png) no-repeat center center;
 }

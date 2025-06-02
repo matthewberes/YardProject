@@ -24,6 +24,6 @@ export const routes: Routes = [
     { path: 'tool/:tool', component: ToolComponent },
     { path: 'insects', component: InsectIndexComponent },
     { path: 'insect/:insect', component: InsectComponent },
-    { path: 'insecticide', component: InsecticideIndexComponent },
-    { path: 'insecticide/:insecticide', component: InsecticideComponent },
+    { path: 'insecticides', component: InsecticideIndexComponent },
+    { path: 'insecticides/:insecticide', component: InsecticideComponent },
 ];
