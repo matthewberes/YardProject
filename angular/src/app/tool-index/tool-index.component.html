@@ -1,1 +1,14 @@
-<p>tool-index works!</p>
+<ng-container *ngFor="let tool of tools">
+    <div class="card" (click)="onCardClick(tool)">
+        <img src="{{ tool.image }}" alt="{{ tool.name }}" />
+
+        <div>
+            <h2>{{ tool.name }}</h2>
+            <h3>{{ tool.brand }}</h3>
+            <div class="description" [innerHTML]="tool.description"></div>
+        </div>
+    </div>
+    <ng-container *ngIf="!isLast(tool)">
+        <hr>
+    </ng-container>
+</ng-container>
