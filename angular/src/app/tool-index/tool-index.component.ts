@@ -25,7 +25,7 @@ export class ToolIndexComponent {
 
   onCardClick(tool: any): void {
     this.toolService.currTool.next(tool);
-    this.router.navigate(['/tools', tool.link]);
+    this.router.navigate(['/tool', tool.link]);
   }
 
   isLast(insecticide: any): boolean {

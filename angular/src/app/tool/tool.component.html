@@ -1,1 +1,20 @@
-<p>tool works!</p>
+<img src="left-arrow.png" class="back-arrow" (click)="goBack()" alt="Back">
+
+
+<ng-container *ngIf="set404">
+    <h2>404 Tool Not Found</h2>
+    <p class="no-plant">
+        We don't have any data regarding this tool. Take a look at our
+        <a href="tool-index">index</a>
+        to see what we are tracking.
+    </p>
+</ng-container>
+
+<ng-container *ngIf="!set404">
+    <h2>{{currTool.name}}</h2>
+    <h3>{{currTool.brand}}</h3>
+    <div class="flex">
+        <div class="description" [innerHTML]="currTool.description"></div>
+        <img src="{{currTool.image}}" class="image">
+    </div>
+</ng-container>
