@@ -4,10 +4,11 @@ import { HttpClient } from '@angular/common/http';
 import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { NgIf } from '@angular/common';
 import { ToolService } from '../tool.service';
+import { AmazonButtonComponent } from '../amazon-button/amazon-button.component';
 
 @Component({
   selector: 'app-tool',
-  imports: [NgIf, CdkAccordionModule],
+  imports: [NgIf, CdkAccordionModule, AmazonButtonComponent],
   templateUrl: './tool.component.html',
   styleUrl: './tool.component.css'
 })

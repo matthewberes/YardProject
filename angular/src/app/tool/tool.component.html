@@ -15,6 +15,9 @@
     <h3>{{currTool.brand}}</h3>
     <div class="flex">
         <div class="description" [innerHTML]="currTool.description"></div>
-        <img src="{{currTool.image}}" class="image">
+        <div class="image-flex">
+            <img src="{{currTool.image}}" class="image">
+            <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
+        </div>
     </div>
 </ng-container>

@@ -15,7 +15,7 @@ export class PesticideComponent implements OnInit {
   constructor(private route: ActivatedRoute, private pesticideService: PesticideService, private http: HttpClient) { }
 
   pesticideParam: string;
-  currPesticide: any = "Pesticide not found...";
+  currPesticide: any = "Herbicide not found...";
   set404: boolean = true;
   accordionTitles: string[] = ["Application", "Legality", "Pros", "Cons", "Notes"];
   expandedIndex = 0;
