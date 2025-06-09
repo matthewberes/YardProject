@@ -19,11 +19,11 @@ export const routes: Routes = [
     { path: 'plants', component: IndexComponent },
     { path: 'plant/:plant', component: PlantComponent },
     { path: 'herbicides', component: PesticideIndexComponent },
-    { path: 'herbicide/:herbicides', component: PesticideComponent },
+    { path: 'herbicide/:herbicide', component: PesticideComponent },
     { path: 'tools', component: ToolIndexComponent },
     { path: 'tool/:tool', component: ToolComponent },
     { path: 'insects', component: InsectIndexComponent },
     { path: 'insect/:insect', component: InsectComponent },
     { path: 'insecticides', component: InsecticideIndexComponent },
-    { path: 'insecticides/:insecticide', component: InsecticideComponent },
+    { path: 'insecticide/:insecticide', component: InsecticideComponent },
 ];

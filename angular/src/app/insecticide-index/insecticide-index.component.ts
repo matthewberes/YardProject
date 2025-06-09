@@ -25,7 +25,7 @@ export class InsecticideIndexComponent {
 
   onCardClick(insecticide: any): void {
     this.insecticideService.currInsecticide.next(insecticide);
-    this.router.navigate(['/insecticides', insecticide.link]);
+    this.router.navigate(['/insecticide', insecticide.link]);
   }
 
   isLast(insecticide: any): boolean {

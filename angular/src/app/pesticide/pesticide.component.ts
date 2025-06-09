@@ -25,7 +25,7 @@ export class PesticideComponent implements OnInit {
       this.currPesticide = this.pesticideService.currPesticide.value;
       this.set404 = false
     } else {
-      this.pesticideParam = this.route.snapshot.paramMap.get('pesticide');
+      this.pesticideParam = this.route.snapshot.paramMap.get('herbicide');
       this.http.get<any>('pesticide-index.json').subscribe(data => {
         let pesticides = data.pesticides;
         pesticides.forEach(pesticide => {

@@ -27,7 +27,7 @@ export class ToolComponent {
       this.set404 = false
     } else {
       this.toolParam = this.route.snapshot.paramMap.get('tool');
-      this.http.get<any>('plant-index.json').subscribe(data => {
+      this.http.get<any>('tool-index.json').subscribe(data => {
         let tools = data.tools;
         tools.forEach(tool => {
           if (tool.link == this.toolParam) {
