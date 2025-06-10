@@ -9,17 +9,12 @@
 }
 
 
-.image-div {
-    border: 1px solid black;
-    width: fit-content;
-}
+.image-div {}
 
 img {
     width: 150px;
-    height: 200px;
-    clip-path: inset(25px 0px 25px 0px);
-    margin-top: -25px;
-    margin-bottom: -29px;
+    height: 150px;
+    border: 1px solid black;
 }
 
 h2 {
@@ -37,7 +32,7 @@ h3 {
 }
 
 .description {
-    width: 99.2%;
+    width: 99%;
     margin: 0px 0px 5px 10px;
     display: -webkit-box;
     -webkit-line-clamp: 3;

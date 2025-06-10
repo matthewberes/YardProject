@@ -1,8 +1,6 @@
 <ng-container *ngFor="let plant of plants">
     <div class="card" (click)="onCardClick(plant)">
-        <div class="image-div">
-            <img src="{{ plant.image }}" alt="{{ plant.name }}" class="plant-image" />
-        </div>
+        <img src="{{ plant.image }}" alt="{{ plant.name }}" class="plant-image" />
         <div>
             <h2>{{ plant.name }}</h2>
             <h3>{{ plant.taxonomy }}</h3>

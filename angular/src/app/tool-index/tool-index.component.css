@@ -18,6 +18,10 @@ img {
 h2 {
     font-size: 20pt;
     margin: 0px 0px 0px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 h3 {
@@ -30,7 +34,7 @@ h3 {
 }
 
 .description {
-    width: 99.2%;
+    width: 99%;
     margin: 0px 0px 5px 10px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
