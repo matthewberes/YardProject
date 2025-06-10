@@ -11,6 +11,9 @@ import { InsectIndexComponent } from './insect-index/insect-index.component';
 import { InsecticideIndexComponent } from './insecticide-index/insecticide-index.component';
 import { InsectComponent } from './insect/insect.component';
 import { InsecticideComponent } from './insecticide/insecticide.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -26,4 +29,7 @@ export const routes: Routes = [
     { path: 'insect/:insect', component: InsectComponent },
     { path: 'insecticides', component: InsecticideIndexComponent },
     { path: 'insecticide/:insecticide', component: InsecticideComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: 'sitemap', component: SitemapComponent },
 ];
