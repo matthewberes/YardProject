@@ -5,10 +5,11 @@
             "image": "Weeds/broadleaf-plantain.png",
             "taxonomy": "Plantago major",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "origins": "",
-            "removal": "",
-            "pros": "",
-            "cons": "",
+            "origins": "test origin",
+            "removal": "test removal",
+            "pros": "tets pros",
+            "cons": "test cons",
+            "notes": "test notes",
             "link": "broadleaf-plantain"
         },
         {
@@ -20,6 +21,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "common-cinquefoil"
         },
         {
@@ -31,6 +33,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "common-dandelion"
         },
         {
@@ -42,6 +45,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "common-selfheal"
         },
         {
@@ -53,6 +57,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "common-yarrow"
         },
         {
@@ -64,6 +69,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "corn-speedwell"
         },
         {
@@ -75,6 +81,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "field-horsetail"
         },
         {
@@ -86,6 +93,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "garden-sorrel"
         },
         {
@@ -97,6 +105,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "hedge-bedstraw"
         },
         {
@@ -108,6 +117,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "hoary-alyssum"
         },
         {
@@ -119,6 +129,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "horseweed"
         },
         {
@@ -130,6 +141,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "orange-hawkweed"
         },
         {
@@ -141,6 +153,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "prarie-agoseris"
         },
         {
@@ -152,6 +165,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "red-clover"
         },
         {
@@ -163,6 +177,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "ribwort-plantain"
         },
         {
@@ -174,6 +189,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "rough-hawkbit"
         },
         {
@@ -185,6 +201,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "silver-cinquefoil"
         },
         {
@@ -196,6 +213,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "vipers-bugloss"
         },
         {
@@ -207,6 +225,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "white-clover"
         },
         {
@@ -218,6 +237,7 @@
             "removal": "",
             "pros": "",
             "cons": "",
+            "notes": "",
             "link": "wild-strawberry"
         }
     ]

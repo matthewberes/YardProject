@@ -1,0 +1,51 @@
+.parent-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72vh;
+}
+
+.child-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 24pt;
+}
+
+.child-flex p {
+    width: 400px;
+    font-size: 14pt;
+}
+
+.slogan {
+    margin-bottom: 5px;
+}
+
+.click-here {
+    margin-top: 0px;
+}
+
+button {
+    width: 140px;
+    height: 35px;
+    background-color: rgba(0, 155, 58, .7);
+    color: #fafafa;
+    font-size: 13pt;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(0, 155, 58, .4);
+    cursor: pointer;
+}
+
+img {
+    height: 375px;
+    width: 375px;
+    border-radius: 50%;
+}
