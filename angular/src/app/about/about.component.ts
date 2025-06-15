@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor(private router: Router) { }
 
   onClick() {
     this.router.navigate(['/maintenance']);

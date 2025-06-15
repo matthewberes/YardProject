@@ -1,0 +1,72 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: center;
+    height: 72vh;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 24pt;
+}
+
+p {
+    font-size: 14pt;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25cqw;
+    height: 18cqw;
+    max-width: 300px;
+    max-height: 250px;
+    min-width: 255px;
+    min-height: 205px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.box p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #666666;
+}
+
+h3 {
+    font-size: 18pt;
+    margin: 10px;
+    color: #555555;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 155, 58, .7);
+    color: #fafafa;
+    font-size: 13pt;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 155, 58, .4);
+    cursor: pointer;
+}
