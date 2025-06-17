@@ -17,6 +17,11 @@ img {
 h2 {
     font-size: 24pt;
     margin: 0px 0px 0px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 h3 {
