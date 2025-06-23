@@ -1,0 +1,31 @@
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0px;
+}
+
+button {
+    height: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.link-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 12pt;
+}
+
+p {
+    margin: 0px 0px 0px 10px;
+    font-size: 10pt;
+}
