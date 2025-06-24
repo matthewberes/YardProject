@@ -52,7 +52,7 @@ h3 {
     cursor: pointer;
 }
 
-app-amazon-button {
-    margin-left: auto;
-    margin-right: auto;
+.buttons {
+    display: flex;
+    justify-content: center;
 }

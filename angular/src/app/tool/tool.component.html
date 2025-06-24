@@ -17,7 +17,13 @@
         <div class="description" [innerHTML]="currTool.description"></div>
         <div class="image-flex">
             <img src="{{currTool.image}}" class="image">
-            <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
+            <div class="buttons">
+                <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
+                <app-home-depot-button [homeDepotLink]="currTool.homeDepotLink"></app-home-depot-button>
+                <app-home-hardware-button [homeHardwareLink]="currTool.homeHardwareLink"></app-home-hardware-button>
+                <app-lowes-button [lowesLink]="currTool.lowesLink"></app-lowes-button>
+                <app-walmart-button [walmartLink]="currTool.walmartLink"></app-walmart-button>
+            </div>
         </div>
     </div>
 </ng-container>

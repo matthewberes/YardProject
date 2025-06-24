@@ -5,10 +5,14 @@ import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { NgIf } from '@angular/common';
 import { ToolService } from '../tool.service';
 import { AmazonButtonComponent } from '../amazon-button/amazon-button.component';
+import { HomeDepotButtonComponent } from '../home-depot-button/home-depot-button.component';
+import { HomeHardwareButtonComponent } from '../home-hardware-button/home-hardware-button.component';
+import { LowesButtonComponent } from '../lowes-button/lowes-button.component';
+import { WalmartButtonComponent } from '../walmart-button/walmart-button.component';
 
 @Component({
   selector: 'app-tool',
-  imports: [NgIf, CdkAccordionModule, AmazonButtonComponent],
+  imports: [NgIf, CdkAccordionModule, AmazonButtonComponent, HomeDepotButtonComponent, HomeHardwareButtonComponent, LowesButtonComponent, WalmartButtonComponent],
   templateUrl: './tool.component.html',
   styleUrl: './tool.component.css'
 })

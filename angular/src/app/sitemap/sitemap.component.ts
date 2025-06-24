@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './sitemap.component.css'
 })
 export class SitemapComponent {
-
+  onClick() {
+    window.open('/sitemap.xml', '_blank');
+  }
 }
