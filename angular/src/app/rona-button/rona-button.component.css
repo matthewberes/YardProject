@@ -1,0 +1,24 @@
+.outer {
+    display: flex;
+    border: 2px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+img {
+    width: 45px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin-top: 15px;
+    width: 120px;
+}
+
+.outer:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

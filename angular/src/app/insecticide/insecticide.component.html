@@ -16,6 +16,15 @@
     <div class="flex">
         <div class="description" [innerHTML]="currInsecticide.description"></div>
         <img src="{{currInsecticide.image}}" class="image">
+        <div class="buttons">
+            <app-amazon-button [amazonLink]="currInsecticide.amazonLink"></app-amazon-button>
+            <app-canadian-tire-button [canadianTireLink]="currInsecticide.canadianTireLink"></app-canadian-tire-button>
+            <app-home-depot-button [homeDepotLink]="currInsecticide.homeDepotLink"></app-home-depot-button>
+            <app-home-hardware-button [homeHardwareLink]="currInsecticide.homeHardwareLink"></app-home-hardware-button>
+            <app-lowes-button [lowesLink]="currInsecticide.lowesLink"></app-lowes-button>
+            <app-rona-button [ronaLink]="currInsecticide.ronaLink"></app-rona-button>
+            <app-walmart-button [walmartLink]="currInsecticide.walmartLink"></app-walmart-button>
+        </div>
     </div>
 
     <cdk-accordion class="example-accordion">
@@ -39,5 +48,4 @@
         </cdk-accordion-item>
         }
     </cdk-accordion>
-
 </ng-container>

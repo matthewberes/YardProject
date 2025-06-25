@@ -9,10 +9,12 @@ import { HomeDepotButtonComponent } from '../home-depot-button/home-depot-button
 import { HomeHardwareButtonComponent } from '../home-hardware-button/home-hardware-button.component';
 import { LowesButtonComponent } from '../lowes-button/lowes-button.component';
 import { WalmartButtonComponent } from '../walmart-button/walmart-button.component';
+import { RonaButtonComponent } from '../rona-button/rona-button.component';
+import { CanadianTireButtonComponent } from '../canadian-tire-button/canadian-tire-button.component';
 
 @Component({
   selector: 'app-tool',
-  imports: [NgIf, CdkAccordionModule, AmazonButtonComponent, HomeDepotButtonComponent, HomeHardwareButtonComponent, LowesButtonComponent, WalmartButtonComponent],
+  imports: [NgIf, CdkAccordionModule, AmazonButtonComponent, CanadianTireButtonComponent, HomeDepotButtonComponent, HomeHardwareButtonComponent, LowesButtonComponent, RonaButtonComponent, WalmartButtonComponent],
   templateUrl: './tool.component.html',
   styleUrl: './tool.component.css'
 })

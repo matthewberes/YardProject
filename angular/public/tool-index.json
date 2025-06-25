@@ -11,6 +11,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "pump-pressured-backpack-sprayer"
         },
         {
@@ -24,6 +26,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "sun-joe-dethatcher"
         },
         {
@@ -37,6 +41,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "greenworks-dethatcher"
         },
         {
@@ -50,6 +56,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "long-handle-weed-remover"
         },
         {
@@ -63,6 +71,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "pump-pressured-backpack-sprayer"
         },
         {
@@ -76,6 +86,8 @@
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "mini-broadcast-spreader"
         },
         {
@@ -84,11 +96,13 @@
             "image": "Tools/scotts-pro.jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "notes": "",
-            "amazonLink": "https://www.amazon.ca/Scotts-Builder-Edgeguard-Broadcast-Spreader/dp/B09SRLKW1X/ref=sr_1_2_sspa?crid=39LLHFGW0JQCC&dib=eyJ2IjoiMSJ9.Q6lkqp0HXK080Fc-dXkzYaaBUaj87XTTZ9pZNPGA5ZhAnfJxshle8AMYk5SSeGsbtIcHW51qSa6K1N_nf1OrH-CjuL3n2a0wejNE9SggsFgb1pTb9K9-JYoBqXlvAklfLkzZ9zfT7PxKJ1XEJ8_4MLo_feRmznakHF6h_X4K3kBxnj0tI2vT55Hf-ETeuybl0G2GN9iUtVraBL9flJ17JTqAlSLIJmiqwMJ-E6sbO9RX4w6ioNytASkpPwv6j5OwtDaS47RGdrAssPNOSNAjC5MeYTRuvxzuGy72tdugC-w.c0XIrdazspFw7VmyL3kXT21EbPFX3g-oZuJFALvCUTM&dib_tag=se&keywords=seed%2Bspreader&qid=1749481828&sprefix=seed%2B%2Caps%2C123&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "amazonLink": "https://www.amazon.ca/Scotts-Builder-Edgeguard-Broadcast-Spreader/dp/B09SRLKW1X/ref=sr_1_2_sspa?crid=39LLHFGW0JQCC&dib=eyJ2IjoiMSJ9.Q6lkqp0HXK080Fc-dXkzYaaBUaj87XTTZ9pZNPGA5ZhAnfJxshle8AMYk5SSeGsbtIcHW51qSa6K1N_nf1OrH-CjuL3n2a0wejNE9SggsFgb1pTb9K9-JYoBqXlvAklfLkzZ9zfT7PxKJ1XEJ8_4MLo_feRmznakHF6h_X4K3kBxnj0tI2vT55Hf-ETeuybl0G2GN9iUtVraBL9flJ17JTqAlSLIJmiqwMJ-E6sbO9RX4w6ioNytASkpPwv6j5OwtDaS47RGdrAssPNOSNAjC5MeYTRuvxzuGy72tdugC-w.c0XIrdazspFw7VmyL3kXT21EbPFX3g-oZuJFALvCUTM&dib_tag=se&keywords=seed%2Bspreader&qid=1749481828&spprefix=seed%2B%2Caps%2C123&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
             "walmartLink": "",
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "pro-broadcast-spreader"
         },
         {
@@ -97,11 +111,13 @@
             "image": "Tools/weeding-tool.jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "notes": "",
-            "amazonLink": "https://www.amazon.ca/Digtokore-Weeding-Ergonomic-Remover-Kneeling/dp/B0DFC21CC2/ref=sr_1_6?crid=ISS7U1309MTE&dib=eyJ2IjoiMSJ9.sFZLgnnN8AXCtFpglZUOm-AIgcreP-GIrrYvDsvgE_nG1DPlB50f34JoSYZutgngseVMQqmzQxoGdcqEehEnKzK3jOZADlFBGmmKhEuOqkIPyISc0geUkNCTKpKVYmfdUSCrX4mcAas1P_NFAE3SDAZ02GuwF-skvO7lqwkI7xkapWLwqaRV9l9ZUcSQdwHmsHR6lnOhlzF-Zf2-8suIQPE6crwIAj2Y0AWmqU5cTZHCNQrPxMsI_T-aByEk6BRG7RVZDVFyFnNJ3JvwYLWUwod1ioeL-pLFiaISNh691ss.NXHwyCDBffevrXB8boA-_7VWkRdzhF0UI4MAge-RcvI&dib_tag=se&keywords=weed%2Bpuller&qid=1749082211&sprefix=weed%2Bpulle%2Caps%2C223&sr=8-6&th=1",
+            "amazonLink": "https://www.amazon.ca/Digtokore-Weeding-Ergonomic-Remover-Kneeling/dp/B0DFC21CC2/ref=sr_1_6?crid=ISS7U1309MTE&dib=eyJ2IjoiMSJ9.sFZLgnnN8AXCtFpglZUOm-AIgcreP-GIrrYvDsvgE_nG1DPlB50f34JoSYZutgngseVMQqmzQxoGdcqEehEnKzK3jOZADlFBGmmKhEuOqkIPyISc0geUkNCTKpKVYmfdUSCrX4mcAas1P_NFAE3SDAZ02GuwF-skvO7lqwkI7xkapWLwqaRV9l9ZUcSQdwHmsHR6lnOhlzF-Zf2-8suIQPE6crwIAj2Y0AWmqU5cTZHCNQrPxMsI_T-aByEk6BRG7RVZDVFyFnNJ3JvwYLWUwod1ioeL-pLFiaISNh691ss.NXHwyCDBffevrXB8boA-_7VWkRdzhF0UI4MAge-RcvI&dib_tag=se&keywords=weed%2Bpuller&qid=1749082211&spprefix=weed%2Bpulle%2Caps%2C223&sr=8-6&th=1",
             "walmartLink": "",
             "homeHardwareLink": "",
             "homeDepotLink": "",
             "lowesLink": "",
+            "canadianTireLink": "",
+            "ronaLink": "",
             "link": "weeding-tool-with-4-claws"
         }
     ]
