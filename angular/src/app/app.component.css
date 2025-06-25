@@ -43,3 +43,10 @@ router-outlet {
     border-top: 1px solid rgba(255, 255, 255, .4);
     background-color: rgba(254, 209, 0, .7);
 }
+
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 60px;
+    }
+
+}

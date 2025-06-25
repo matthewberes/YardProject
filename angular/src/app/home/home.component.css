@@ -26,6 +26,7 @@
     margin-bottom: 10px;
     width: auto;
     height: 20cqw;
+    min-height: 200px;
     background: url(../../../public/banner.webp) no-repeat center center;
     top: 0;
     background-size: cover;
@@ -34,14 +35,16 @@
 .buttons {
     display: flex;
     justify-content: space-between;
-    margin-left: -1%;
-    margin-right: -1%;
+    margin-left: -.5%;
+    margin-right: -.5%;
 }
 
 .button {
     background-color: aqua;
     height: 11.8cqw;
     width: 11.8cqw;
+    min-width: 120px;
+    min-height: 120px;
     margin: 5px;
     transition: background 0.2s ease-in-out;
     max-height: 300px;
@@ -77,6 +80,8 @@ hr {
 .logo {
     width: 4cqw;
     height: 4cqw;
+    min-width: 40px;
+    min-height: 40px;
     margin: 0 10px;
 }
 
@@ -134,4 +139,11 @@ hr {
 .maintenance:hover {
     background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .button-text {
+        font-size: 13.5pt;
+        line-height: 118px;
+    }
 }
