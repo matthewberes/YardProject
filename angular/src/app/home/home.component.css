@@ -46,7 +46,7 @@
     min-width: 120px;
     min-height: 120px;
     margin: 5px;
-    transition: background 0.2s ease-in-out;
+    transition: filter 0.2s ease-in-out;
     max-height: 300px;
     max-width: 300px;
 }
@@ -88,62 +88,68 @@ hr {
 /* Regular opacity is 85, Hover opacity is 70, Hex is #126832  */
 
 .plants {
-    background: url(../../../public/buttons/plants.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/plants-hover.png) no-repeat center center;
 }
 
 .plants:hover,
 .plants:focus {
-    background: url(../../../public/buttons/plants-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
 .herbicides {
-    background: url(../../../public/buttons/herbicide.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/herbicide-hover.png) no-repeat center center;
 }
 
 .herbicides:hover,
 .herbicides:focus {
-    background: url(../../../public/buttons/herbicide-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
 .insects {
-    background: url(../../../public/buttons/insects.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/insects-hover.png) no-repeat center center;
 }
 
 .insects:hover,
 .insects:focus {
-    background: url(../../../public/buttons/insects-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
 .insecticides {
-    background: url(../../../public/buttons/insecticide.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/insecticide-hover.png) no-repeat center center;
 }
 
 .insecticides:hover,
 .insecticides:focus {
-    background: url(../../../public/buttons/insecticide-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
 .tools {
-    background: url(../../../public/buttons/tools.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/tools-hover.png) no-repeat center center;
 }
 
 .tools:hover,
 .tools:focus {
-    background: url(../../../public/buttons/tools-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
 .maintenance {
-    background: url(../../../public/buttons/maintenance.png) no-repeat center center;
+    filter: brightness(.9);
+    background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;
 }
 
 .maintenance:hover,
 .maintenance:focus {
-    background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;
+    filter: brightness(1.1);
     cursor: pointer;
 }
 
