@@ -1,5 +1,4 @@
-<img src="left-arrow.png" class="back-arrow" (click)="goBack()" alt="Back">
-
+<img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
 
 <ng-container *ngIf="set404">
     <h2>404 Plant Not Found</h2>

@@ -1,5 +1,4 @@
-<img src="left-arrow.png" class="back-arrow" (click)="goBack()" alt="Back">
-
+<img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
 
 <ng-container *ngIf="set404">
     <h2>404 Herbicide Not Found</h2>
@@ -12,7 +11,7 @@
 
 <ng-container *ngIf="!set404">
     <h2>{{currPesticide.name}}</h2>
-    <h3>{{currPesticide.taxonomy}}</h3>
+    <h3>{{currPesticide.chemical}}</h3>
     <div class="flex">
         <div class="description" [innerHTML]="currPesticide.description"></div>
         <img src="{{currPesticide.image}}" class="image">
@@ -25,6 +24,10 @@
             <app-rona-button [ronaLink]="currPesticide.ronaLink"></app-rona-button>
             <app-walmart-button [walmartLink]="currPesticide.walmartLink"></app-walmart-button>
         </div>
+    </div>
+
+    <div class="desktop">
+        <h4>Test</h4>
     </div>
 
     <cdk-accordion class="example-accordion">

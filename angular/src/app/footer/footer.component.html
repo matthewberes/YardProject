@@ -2,10 +2,10 @@
     <p class="copyright">©2025 Canadian Lawn Book | All rights reserved.</p>
 
     <div class="flex">
-        <p class="item" (click)="onClick('about')">About</p>
+        <p class="item" (click)="onClick('about')" (keyup.enter)="onClick('about')" tabindex="0">About</p>
         <div class="vl"></div>
-        <p class="item" (click)="onClick('contact')">Contact us</p>
+        <p class="item" (click)="onClick('contact')" (keyup.enter)="onClick('contact')" tabindex="0">Contact us</p>
         <div class="vl"></div>
-        <p class="item" (click)="onClick('sitemap')">Sitemap</p>
+        <p class="item" (click)="onClick('sitemap')" (keyup.enter)="onClick('sitemap')" tabindex="0">Sitemap</p>
     </div>
 </div>

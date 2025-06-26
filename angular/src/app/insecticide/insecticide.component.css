@@ -45,7 +45,6 @@ h3 {
     width: 50px;
     height: auto;
     position: absolute;
-    transform: rotate(-10deg);
 }
 
 .back-arrow:hover {

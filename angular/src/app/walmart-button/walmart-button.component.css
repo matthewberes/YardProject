@@ -18,7 +18,8 @@ p {
     width: 120px;
 }
 
-.outer:hover {
+.outer:hover,
+.outer:focus {
     background-color: #f0f0f0;
     cursor: pointer;
 }

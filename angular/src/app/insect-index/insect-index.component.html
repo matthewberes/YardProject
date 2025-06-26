@@ -1,5 +1,5 @@
 <ng-container *ngFor="let insect of insects">
-    <div class="card" (click)="onCardClick(insect)">
+    <div class="card" (click)="onCardClick(insect)" (keyup.enter)="onCardClick(insect)" tabindex="0">
         <img src="{{ insect.image }}" alt="{{ insect.name }}" class="insect-image" />
 
         <div>

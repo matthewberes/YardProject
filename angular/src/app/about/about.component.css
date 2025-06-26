@@ -40,7 +40,8 @@ button {
     border: none;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: rgba(0, 155, 58, .4);
     cursor: pointer;
 }

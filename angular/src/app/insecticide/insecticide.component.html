@@ -1,5 +1,4 @@
-<img src="left-arrow.png" class="back-arrow" (click)="goBack()" alt="Back">
-
+<img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
 
 <ng-container *ngIf="set404">
     <h2>404 Insecticide Not Found</h2>
@@ -12,7 +11,7 @@
 
 <ng-container *ngIf="!set404">
     <h2>{{currInsecticide.name}}</h2>
-    <h3>{{currInsecticide.taxonomy}}</h3>
+    <h3>{{currInsecticide.chemical}}</h3>
     <div class="flex">
         <div class="description" [innerHTML]="currInsecticide.description"></div>
         <img src="{{currInsecticide.image}}" class="image">

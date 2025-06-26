@@ -91,7 +91,8 @@ hr {
     background: url(../../../public/buttons/plants.png) no-repeat center center;
 }
 
-.plants:hover {
+.plants:hover,
+.plants:focus {
     background: url(../../../public/buttons/plants-hover.png) no-repeat center center;
     cursor: pointer;
 }
@@ -100,7 +101,8 @@ hr {
     background: url(../../../public/buttons/herbicide.png) no-repeat center center;
 }
 
-.herbicides:hover {
+.herbicides:hover,
+.herbicides:focus {
     background: url(../../../public/buttons/herbicide-hover.png) no-repeat center center;
     cursor: pointer;
 }
@@ -109,7 +111,8 @@ hr {
     background: url(../../../public/buttons/insects.png) no-repeat center center;
 }
 
-.insects:hover {
+.insects:hover,
+.insects:focus {
     background: url(../../../public/buttons/insects-hover.png) no-repeat center center;
     cursor: pointer;
 }
@@ -118,7 +121,8 @@ hr {
     background: url(../../../public/buttons/insecticide.png) no-repeat center center;
 }
 
-.insecticides:hover {
+.insecticides:hover,
+.insecticides:focus {
     background: url(../../../public/buttons/insecticide-hover.png) no-repeat center center;
     cursor: pointer;
 }
@@ -127,7 +131,8 @@ hr {
     background: url(../../../public/buttons/tools.png) no-repeat center center;
 }
 
-.tools:hover {
+.tools:hover,
+.tools:focus {
     background: url(../../../public/buttons/tools-hover.png) no-repeat center center;
     cursor: pointer;
 }
@@ -136,7 +141,8 @@ hr {
     background: url(../../../public/buttons/maintenance.png) no-repeat center center;
 }
 
-.maintenance:hover {
+.maintenance:hover,
+.maintenance:focus {
     background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;
     cursor: pointer;
 }

@@ -3,7 +3,8 @@
     display: flex;
 }
 
-.card:hover {
+.card:hover,
+.card:focus {
     background-color: #f0f0f0;
     cursor: pointer;
 }
@@ -34,7 +35,7 @@ h3 {
 }
 
 .description {
-    width: 99%;
+    width: 98.5%;
     font-size: 14pt;
     margin: 0px 0px 5px 10px;
     display: -webkit-box;
@@ -42,7 +43,6 @@ h3 {
     line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    padding-right: 100px;
 }
 
 hr {

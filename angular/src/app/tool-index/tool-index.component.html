@@ -1,6 +1,6 @@
 <ng-container *ngFor="let tool of tools">
-    <div class="card" (click)="onCardClick(tool)">
-        <img src="{{ tool.image }}" alt="{{ tool.name }}" />
+    <div class="card" (click)="onCardClick(tool)" (keyup.enter)="onCardClick(tool)" tabindex="0">
+        <img src="{{ tool.image }}" aria-label="" alt="Image of {{ tool.name }}" />
 
         <div>
             <h2>{{ tool.name }}</h2>

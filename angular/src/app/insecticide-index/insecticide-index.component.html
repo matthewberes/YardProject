@@ -1,6 +1,7 @@
 <ng-container *ngFor="let insecticide of insecticides">
-    <div class="card" (click)="onCardClick(insecticide)">
-        <img src="{{ insecticide.image }}" alt="{{ insecticide.name }}" class="insecticide-image" />
+    <div class="card" (click)="onCardClick(insecticide)" (keyup.enter)="onCardClick(insecticide)" tabindex="0">
+        <img src="{{ insecticide.image }}" aria-label="" alt="Image of {{ insecticide.name }}"
+            class="insecticide-image" />
 
         <div>
             <h2>{{ insecticide.name }}</h2>
