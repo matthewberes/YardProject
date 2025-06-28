@@ -49,3 +49,15 @@ h1 {
     }
 
 }
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 42.5pt;
+    }
+
+    img {
+        height: 110px;
+    }
+}

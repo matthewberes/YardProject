@@ -50,3 +50,24 @@ router-outlet {
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 140px;
+    }
+
+    .margin {
+        display: none;
+    }
+
+    .main {
+        width: 98.75%;
+        margin: 0%;
+    }
+
+    .footer {
+        min-height: none;
+        height: 500px
+    }
+
+}
