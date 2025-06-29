@@ -20,5 +20,29 @@
             <a href="/tools" class="taskbar-item"
                 [ngStyle]="path == '/tools' ? {'text-decoration': 'underline'}: {}">Tools</a>
         </div>
+        <div class="hamburger" (click)="openMenu()">
+            <mat-icon fontIcon="menu"></mat-icon>
+        </div>
     </ng-container>
+</div>
+
+<div class="mobileMenu" *ngIf="menuOpened">
+    <div class="menuBlur" (click)="closeMenu()"></div>
+    <div class="menuBox">
+        <p class="exit" (click)="closeMenu()">x</p>
+        <p class="menuOption top" [ngClass]="{'selected': path == '/home'}" (click)="onClickMobile('home')"
+            tabindex="0">Home</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/plants'}" (click)="onClickMobile('plants')"
+            tabindex="0">Plants</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/herbicides'}" (click)="onClickMobile('herbicides')"
+            tabindex="0">Herbicides</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/insects'}" (click)="onClickMobile('insects')"
+            tabindex="0">Insects</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/insecticides'}" (click)="onClickMobile('insecticides')"
+            tabindex="0">Insecticides</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/maintenance'}" (click)="onClickMobile('maintenance')"
+            tabindex="0">Maintenance</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/tools'}" (click)="onClickMobile('tools')" tabindex="0">
+            Tools</p>
+    </div>
 </div>

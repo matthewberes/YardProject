@@ -2,17 +2,18 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule],
+  imports: [CommonModule, MatIconModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 
   constructor(private router: Router) { }
-
+  menuOpened: boolean = false;
   path: string = "";
 
   ngOnInit(): void {
@@ -34,5 +35,18 @@ export class HeaderComponent {
 
   onLogoClick(): void {
     this.router.navigate(['/home']);
+  }
+
+  onClickMobile(val: string) {
+    this.router.navigate(['/' + val]);
+    this.menuOpened = false;
+  }
+
+  openMenu() {
+    this.menuOpened = true
+  }
+
+  closeMenu() {
+    this.menuOpened = false
   }
 }

@@ -43,6 +43,65 @@ h1 {
     cursor: pointer;
 }
 
+mat-icon {
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 15px 5px;
+    color: yellow;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.mobileMenu {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+}
+
+.menuBlur {
+    height: 100%;
+    width: 100%;
+    width: 20%;
+    background-color: black;
+    opacity: .5;
+}
+
+.menuBox {
+    height: 100%;
+    width: 100%;
+    width: 80%;
+    background-color: #f4f3f2;
+}
+
+.exit {
+    float: right;
+    margin: -5px 30px;
+    font-size: 90pt;
+    font-family: monospace;
+}
+
+.menuOption {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 32pt;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.top {
+    margin-top: 200px;
+}
+
+.selected {
+    color: rgb(189, 189, 14);
+}
+
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 22.5pt;
@@ -52,12 +111,34 @@ h1 {
 
 
 @media screen and (max-width: 600px) {
-
     h1 {
         font-size: 42.5pt;
     }
 
     img {
         height: 110px;
+    }
+
+    .taskbar {
+        display: none;
+    }
+
+    .flex {
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .hamburger {
+        display: none;
+    }
+
+    .contactMobile {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
     }
 }

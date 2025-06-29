@@ -33,10 +33,6 @@
 
 
 @media screen and (max-width: 1000px) {
-    .flex-parent {
-        height: 50px;
-        background-color: rgba(254, 209, 0, .7);
-    }
 
     .copyright,
     .item {
