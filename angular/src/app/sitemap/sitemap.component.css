@@ -37,20 +37,20 @@ p {
 
     h2 {
         margin-left: 5px;
-        font-size: 28pt;
+        font-size: 44pt;
     }
 
     button {
-        height: 45px;
-        font-size: 18pt;
+        height: 65px;
+        font-size: 28pt;
     }
 
     h3 {
-        font-size: 24pt;
+        font-size: 28pt;
     }
 
     p {
-        font-size: 18pt;
+        font-size: 22pt;
         margin: 0px 0px 0px 15px;
     }
 }

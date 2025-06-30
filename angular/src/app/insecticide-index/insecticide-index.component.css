@@ -45,6 +45,37 @@ hr {
 
 @media screen and (max-width: 600px) {
     .container {
-        margin: 10px 0px;
+        margin: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    h2 {
+        font-size: 24pt;
+        margin: 0px 0px 0px 10px;
+    }
+
+    h3 {
+        margin: 0px 0px 10px 10px;
+        color: #808080;
+        font-size: 18pt;
+        font-style: italic;
+        opacity: 0.7;
+        font-weight: 400;
+    }
+
+    .description {
+        width: 98.5%;
+        font-size: 14pt;
+        margin: 0px 0px 5px 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 }

@@ -74,12 +74,12 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     h2 {
-        font-size: 32pt;
+        font-size: 44pt;
         margin: 10px;
     }
 
     p {
-        font-size: 18pt;
+        font-size: 32pt;
         margin-left: 10px;
     }
 
@@ -92,18 +92,18 @@ button:hover {
         margin: 5px;
         max-width: none;
         max-height: none;
-        width: 600px;
-        height: 350px;
+        width: 800px;
+        height: 500px;
     }
 
     h3 {
-        font-size: 30pt;
+        font-size: 42pt;
         margin: 15px;
     }
 
     img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     button {
