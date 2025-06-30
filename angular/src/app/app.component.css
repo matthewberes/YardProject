@@ -1,7 +1,6 @@
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     min-width: 1000px;
 }
 
@@ -62,12 +61,12 @@ router-outlet {
     .main {
         width: 98.75%;
         margin: 0%;
-        background-color: aqua;
     }
 
     .footer {
         min-height: none;
         padding-bottom: 5px;
+        display: none;
     }
 
 }
