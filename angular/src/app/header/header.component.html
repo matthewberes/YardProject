@@ -20,10 +20,10 @@
             <a href="/tools" class="taskbar-item"
                 [ngStyle]="path == '/tools' ? {'text-decoration': 'underline'}: {}">Tools</a>
         </div>
-        <div class="hamburger" (click)="openMenu()">
-            <mat-icon fontIcon="menu"></mat-icon>
-        </div>
     </ng-container>
+    <div class="hamburger" (click)="openMenu()">
+        <mat-icon fontIcon="menu"></mat-icon>
+    </div>
 </div>
 
 <div class="mobileMenu" *ngIf="menuOpened">

@@ -29,3 +29,28 @@ p {
     margin: 0px 0px 0px 10px;
     font-size: 10pt;
 }
+
+@media screen and (max-width: 600px) {
+    .header-flex {
+        margin-top: 10px;
+    }
+
+    h2 {
+        margin-left: 5px;
+        font-size: 28pt;
+    }
+
+    button {
+        height: 45px;
+        font-size: 18pt;
+    }
+
+    h3 {
+        font-size: 24pt;
+    }
+
+    p {
+        font-size: 18pt;
+        margin: 0px 0px 0px 15px;
+    }
+}
