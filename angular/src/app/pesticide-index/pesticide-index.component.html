@@ -1,15 +1,18 @@
-<ng-container *ngFor="let pesticide of pesticides">
-    <div class="card" (click)="onCardClick(pesticide)" (keyup.enter)="onCardClick(pesticide)" tabindex="0">
-        <img src="{{ pesticide.image }}" aria-label="" alt="Image of {{ pesticide.name }}" class="pesticide-image" />
+<div class="container">
+    <ng-container *ngFor="let pesticide of pesticides">
+        <div class="card" (click)="onCardClick(pesticide)" (keyup.enter)="onCardClick(pesticide)" tabindex="0">
+            <img src="{{ pesticide.image }}" aria-label="" alt="Image of {{ pesticide.name }}"
+                class="pesticide-image" />
 
-        <div>
-            <h2>{{ pesticide.name }}</h2>
-            <h3>{{ pesticide.chemical }}</h3>
-            <div class="description" [innerHTML]="pesticide.description"></div>
+            <div>
+                <h2>{{ pesticide.name }}</h2>
+                <h3>{{ pesticide.chemical }}</h3>
+                <div class="description" [innerHTML]="pesticide.description"></div>
+            </div>
         </div>
-    </div>
-    <ng-container *ngIf="!isLast(pesticide)">
-        <hr>
+        <ng-container *ngIf="!isLast(pesticide)">
+            <hr>
+        </ng-container>
     </ng-container>
-</ng-container>
-<!-- TODO: add more from this list https://plantsciences.tennessee.edu/wp-content/uploads/sites/25/2021/10/Herbicide_Chemical-Brand_Names.pdf -->
+    <!-- TODO: add more from this list https://plantsciences.tennessee.edu/wp-content/uploads/sites/25/2021/10/Herbicide_Chemical-Brand_Names.pdf -->
+</div>

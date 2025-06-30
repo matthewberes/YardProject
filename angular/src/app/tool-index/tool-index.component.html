@@ -1,14 +1,16 @@
-<ng-container *ngFor="let tool of tools">
-    <div class="card" (click)="onCardClick(tool)" (keyup.enter)="onCardClick(tool)" tabindex="0">
-        <img src="{{ tool.image }}" aria-label="" alt="Image of {{ tool.name }}" />
+<div class="container">
+    <ng-container *ngFor="let tool of tools">
+        <div class="card" (click)="onCardClick(tool)" (keyup.enter)="onCardClick(tool)" tabindex="0">
+            <img src="{{ tool.image }}" aria-label="" alt="Image of {{ tool.name }}" />
 
-        <div>
-            <h2>{{ tool.name }}</h2>
-            <h3>{{ tool.brand }}</h3>
-            <div class="description" [innerHTML]="tool.description"></div>
+            <div>
+                <h2>{{ tool.name }}</h2>
+                <h3>{{ tool.brand }}</h3>
+                <div class="description" [innerHTML]="tool.description"></div>
+            </div>
         </div>
-    </div>
-    <ng-container *ngIf="!isLast(tool)">
-        <hr>
+        <ng-container *ngIf="!isLast(tool)">
+            <hr>
+        </ng-container>
     </ng-container>
-</ng-container>
+</div>

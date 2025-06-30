@@ -48,3 +48,9 @@ h3 {
 hr {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 10px 0px;
+    }
+}

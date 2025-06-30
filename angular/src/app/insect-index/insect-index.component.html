@@ -1,14 +1,16 @@
-<ng-container *ngFor="let insect of insects">
-    <div class="card" (click)="onCardClick(insect)" (keyup.enter)="onCardClick(insect)" tabindex="0">
-        <img src="{{ insect.image }}" alt="{{ insect.name }}" class="insect-image" />
+<div class="container">
+    <ng-container *ngFor="let insect of insects">
+        <div class="card" (click)="onCardClick(insect)" (keyup.enter)="onCardClick(insect)" tabindex="0">
+            <img src="{{ insect.image }}" alt="{{ insect.name }}" class="insect-image" />
 
-        <div>
-            <h2>{{ insect.name }}</h2>
-            <h3>{{ insect.taxonomy }}</h3>
-            <div class="description" [innerHTML]="insect.description"></div>
+            <div>
+                <h2>{{ insect.name }}</h2>
+                <h3>{{ insect.taxonomy }}</h3>
+                <div class="description" [innerHTML]="insect.description"></div>
+            </div>
         </div>
-    </div>
-    <ng-container *ngIf="!isLast(insect)">
-        <hr>
+        <ng-container *ngIf="!isLast(insect)">
+            <hr>
+        </ng-container>
     </ng-container>
-</ng-container>
+</div>

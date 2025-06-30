@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: flex-start;
     min-width: 1000px;
-    height: 100%;
 }
 
 .flex {
@@ -63,11 +62,12 @@ router-outlet {
     .main {
         width: 98.75%;
         margin: 0%;
+        background-color: aqua;
     }
 
     .footer {
         min-height: none;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
 
 }

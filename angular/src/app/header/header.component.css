@@ -81,7 +81,7 @@ mat-icon {
 
 .exit {
     float: right;
-    margin: -5px 30px;
+    margin: -6px 30px;
     font-size: 90pt;
     font-family: monospace;
 }
@@ -92,6 +92,10 @@ mat-icon {
     width: 600px;
     font-size: 32pt;
     font-family: Roboto, Arial, sans-serif;
+}
+
+.menu-divider {
+    margin: 1%;
 }
 
 .top {
@@ -108,7 +112,6 @@ mat-icon {
     }
 
 }
-
 
 @media screen and (max-width: 600px) {
     h1 {

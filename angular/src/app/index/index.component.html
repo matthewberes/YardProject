@@ -1,13 +1,15 @@
-<ng-container *ngFor="let plant of plants">
-    <div class="card" (click)="onCardClick(plant)" (keyup.enter)="onCardClick(plant)" tabindex="0">
-        <img src="{{ plant.image }}" aria-label="" alt="Image of {{ plant.name }}" class="plant-image" />
-        <div>
-            <h2>{{ plant.name }}</h2>
-            <h3>{{ plant.taxonomy }}</h3>
-            <div class="description" [innerHTML]="plant.description"></div>
+<div class="container">
+    <ng-container *ngFor="let plant of plants">
+        <div class="card" (click)="onCardClick(plant)" (keyup.enter)="onCardClick(plant)" tabindex="0">
+            <img src="{{ plant.image }}" aria-label="" alt="Image of {{ plant.name }}" class="plant-image" />
+            <div>
+                <h2>{{ plant.name }}</h2>
+                <h3>{{ plant.taxonomy }}</h3>
+                <div class="description" [innerHTML]="plant.description"></div>
+            </div>
         </div>
-    </div>
-    <ng-container *ngIf="!isLast(plant)">
-        <hr>
+        <ng-container *ngIf="!isLast(plant)">
+            <hr>
+        </ng-container>
     </ng-container>
-</ng-container>
+</div>

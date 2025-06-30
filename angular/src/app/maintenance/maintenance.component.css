@@ -1,3 +1,10 @@
+.heading {
+    font-size: 24pt;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
 .header-paragraph {
     font-size: 14pt;
     text-align: center;
@@ -6,4 +13,31 @@
 
 .top {
     margin-top: -10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .heading {
+        margin-top: 0px;
+        font-size: 32pt;
+    }
+
+    h2 {
+        font-size: 28pt;
+    }
+
+    .header-paragraph,
+    p,
+    li {
+        font-size: 20pt;
+    }
+
+    .body {
+        margin: 0px 10px;
+    }
+
+    .spacer {
+        height: 20px;
+    }
 }

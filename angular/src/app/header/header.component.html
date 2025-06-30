@@ -44,5 +44,14 @@
             tabindex="0">Maintenance</p>
         <p class="menuOption" [ngClass]="{'selected': path == '/tools'}" (click)="onClickMobile('tools')" tabindex="0">
             Tools</p>
+        <hr class="menu-divider">
+        <p class="menuOption" [ngClass]="{'selected': path == '/about'}" (click)="onClickMobile('about')" tabindex="0">
+            About</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/contact'}" (click)="onClickMobile('contact')"
+            tabindex="0">
+            Contact Us</p>
+        <p class="menuOption" [ngClass]="{'selected': path == '/sitemap'}" (click)="onClickMobile('sitemap')"
+            tabindex="0">
+            Sitemap</p>
     </div>
 </div>
