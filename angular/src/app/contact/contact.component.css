@@ -73,6 +73,11 @@ button:hover {
 
 
 @media screen and (max-width: 600px) {
+    .parent {
+        height: 100%;
+        margin: 0px;
+    }
+
     h2 {
         font-size: 44pt;
         margin: 10px;

@@ -53,4 +53,8 @@ p {
         font-size: 22pt;
         margin: 0px 0px 0px 15px;
     }
+
+    .link-container {
+        margin-bottom: 10px;
+    }
 }
