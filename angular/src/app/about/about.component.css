@@ -75,6 +75,7 @@ img {
         height: auto;
         flex-direction: column;
         gap: 50px;
+        padding-bottom: 33%;
     }
 
     img {
