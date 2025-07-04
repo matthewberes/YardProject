@@ -5,20 +5,23 @@
     </div>
     <ng-container *ngIf="path !== '/home'">
         <div class="taskbar">
-            <a href="/home" class="taskbar-item"
-                [ngStyle]="path == '/home' ? {'text-decoration': 'underline'}: {}">Home</a>
-            <a href="/plants" class="taskbar-item"
-                [ngStyle]="path == '/plants' ? {'text-decoration': 'underline'}: {}">Plants</a>
-            <a href="/herbicides" class="taskbar-item"
-                [ngStyle]="path == '/herbicides' ? {'text-decoration': 'underline'}: {}">Herbicides</a>
-            <a href="/insects" class="taskbar-item"
-                [ngStyle]="path == '/insects' ? {'text-decoration': 'underline'}: {}">Insects</a>
-            <a href="/insecticides" class="taskbar-item"
-                [ngStyle]="path == '/insecticides' ? {'text-decoration': 'underline'}: {}">Insecticides</a>
-            <a href="/maintenance" class="taskbar-item"
-                [ngStyle]="path == '/maintenance' ? {'text-decoration': 'underline'}: {}">Maintenance</a>
-            <a href="/tools" class="taskbar-item"
-                [ngStyle]="path == '/tools' ? {'text-decoration': 'underline'}: {}">Tools</a>
+            <span class="taskbar-item" [ngStyle]="path == '/home' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('home')" (keyup.enter)="onClickMobile('home')" tabindex="0">Home</span>
+            <span class="taskbar-item" [ngStyle]="path == '/plants' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('plants')" (keyup.enter)="onClickMobile('plants')" tabindex="0">Plants</span>
+            <span class="taskbar-item" [ngStyle]="path == '/herbicides' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('herbicides')" (keyup.enter)="onClickMobile('herbicides')"
+                tabindex="0">Herbicides</span>
+            <span class="taskbar-item" [ngStyle]="path == '/insects' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('insects')" (keyup.enter)="onClickMobile('insects')" tabindex="0">Insects</span>
+            <span class="taskbar-item" [ngStyle]="path == '/insecticides' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('insecticides')" (keyup.enter)="onClickMobile('insecticides')"
+                tabindex="0">Insecticides</span>
+            <span class="taskbar-item" [ngStyle]="path == '/maintenance' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('maintenance')" (keyup.enter)="onClickMobile('maintenance')"
+                tabindex="0">Maintenance</span>
+            <span class="taskbar-item" [ngStyle]="path == '/tools' ? {'text-decoration': 'underline'}: {}"
+                (click)="onClickMobile('tools')" (keyup.enter)="onClickMobile('tools')" tabindex="0">Tools</span>
         </div>
     </ng-container>
     <div class="hamburger" (click)="openMenu()">

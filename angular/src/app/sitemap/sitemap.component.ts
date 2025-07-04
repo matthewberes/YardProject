@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class SitemapComponent {
   onClick() {
-    window.open('/sitemap.xml', '_blank');
+    window.open('/CanadaLawnRepair/sitemap.xml', '_blank');
   }
 }
