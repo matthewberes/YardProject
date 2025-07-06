@@ -40,6 +40,9 @@
 }
 
 .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 11.8cqw;
     width: 11.8cqw;
     min-width: 120px;
@@ -51,10 +54,9 @@
 }
 
 .button-text {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     font-size: 1.8cqw;
-    line-height: 11.8cqw;
     color: white;
     font-weight: 500;
 }
@@ -155,7 +157,6 @@ hr {
 @media screen and (max-width: 1000px) {
     .button-text {
         font-size: 13.5pt;
-        line-height: 118px;
     }
 }
 
@@ -185,7 +186,6 @@ hr {
     }
 
     .button {
-        display: block;
         max-width: none;
         max-height: none;
         height: 900px;
@@ -195,7 +195,6 @@ hr {
 
     .button-text {
         font-size: 96pt;
-        line-height: 900px;
     }
 
     hr {
@@ -239,7 +238,6 @@ hr {
     .tools {
         background: url(../../../public/buttons/tools-hover.png) no-repeat center center;
     }
-
 
     .maintenance {
         background: url(../../../public/buttons/maintenance-hover.png) no-repeat center center;

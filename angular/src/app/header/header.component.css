@@ -112,6 +112,16 @@ mat-icon {
 
 }
 
+@media only screen and (min-width: 1000px) {
+    .contactMobile {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 42.5pt;
@@ -131,17 +141,8 @@ mat-icon {
     }
 }
 
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
     .hamburger {
-        display: none;
-    }
-
-    .contactMobile {
-        display: none;
-    }
-
-    .mobile {
         display: none;
     }
 }
