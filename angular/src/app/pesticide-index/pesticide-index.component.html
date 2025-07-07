@@ -1,9 +1,10 @@
 <div class="container">
     <ng-container *ngFor="let pesticide of pesticides">
         <div class="card" (click)="onCardClick(pesticide)" (keyup.enter)="onCardClick(pesticide)" tabindex="0">
-            <img src="{{ pesticide.image }}" aria-label="" alt="Image of {{ pesticide.name }}"
-                class="pesticide-image" />
-
+            <div class="img-div">
+                <img src="{{ pesticide.image }}" aria-label="" alt="Image of {{ pesticide.name }}"
+                    class="pesticide-image" />
+            </div>
             <div>
                 <h2>{{ pesticide.name }}</h2>
                 <h3>{{ pesticide.chemical }}</h3>

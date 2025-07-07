@@ -9,6 +9,11 @@
     cursor: pointer;
 }
 
+.img-div {
+    width: 150px;
+    height: 150px;
+}
+
 img {
     width: 150px;
     height: 150px;

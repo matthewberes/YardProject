@@ -10,6 +10,11 @@
 }
 
 
+.img-div {
+    width: 100px;
+    height: 100px;
+}
+
 img {
     border: 1px solid black;
     width: 100px;
@@ -46,6 +51,11 @@ hr {
 @media screen and (max-width: 600px) {
     .container {
         margin: 10px;
+    }
+
+    .img-div {
+        width: 150px;
+        height: 150px;
     }
 
     img {

@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.img-div {
+    width: 100px;
+    height: 100px;
+}
 
 img {
     border: 1px solid black;
@@ -19,6 +23,11 @@ img {
 h2 {
     font-size: 20pt;
     margin: 0px 0px 0px 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 h3 {
@@ -46,6 +55,11 @@ hr {
 @media screen and (max-width: 600px) {
     .container {
         margin: 10px;
+    }
+
+    .img-div {
+        width: 150px;
+        height: 150px;
     }
 
     img {
