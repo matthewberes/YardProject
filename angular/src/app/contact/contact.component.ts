@@ -15,13 +15,13 @@ export class ContactComponent {
   onClick(val: string) {
     switch (val) {
       case "email":
-        window.open("mailto:mattyberes@gmail.com")
+        window.location.href = "mailto:mattyberes@gmail.com";
         break;
       case "text":
-        window.location.href = "sms:6136390199"
+        window.location.href = "sms:6136390199";
         break;
       case "call":
-        window.location.href = "tel:6136390199"
+        window.location.href = "tel:6136390199";
         break;
     }
   }
