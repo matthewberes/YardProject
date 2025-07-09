@@ -13,7 +13,19 @@
     <h2>{{currInsecticide.name}}</h2>
     <h3>{{currInsecticide.chemical}}</h3>
     <div class="flex">
-        <div class="description" [innerHTML]="currInsecticide.description"></div>
+        <div class="description">
+            <span>{{currInsecticide.description}}</span>
+            <div class="legend">
+                <p class="legend-title">Legend</p>
+                <ol>
+                    <li><a [href]="legendLink('application')">Application</a></li>
+                    <li><a [href]="legendLink('legality')">Legality</a></li>
+                    <li><a [href]="legendLink('pros')">Pros</a></li>
+                    <li><a [href]="legendLink('cons')">Cons</a></li>
+                    <li><a [href]="legendLink('notes')">Notes</a></li>
+                </ol>
+            </div>
+        </div>
         <img src="{{currInsecticide.image}}" class="image">
         <div class="buttons">
             <app-amazon-button [amazonLink]="currInsecticide.amazonLink"></app-amazon-button>
@@ -26,25 +38,19 @@
         </div>
     </div>
 
-    <cdk-accordion class="example-accordion">
-        @for (title of accordionTitles; track title; let index = $index) {
-        <cdk-accordion-item #accordionItem="cdkAccordionItem" class="example-accordion-item">
-            <button class="example-accordion-item-header" (click)="accordionItem.toggle()" tabindex="0"
-                [attr.id]="'accordion-header-' + index" [attr.aria-expanded]="accordionItem.expanded"
-                [attr.aria-controls]="'accordion-body-' + index">
-                {{ title }}
-                <span class="example-accordion-item-description">
-                    Click to {{ accordionItem.expanded ? 'close' : 'open' }}
-                </span>
-            </button>
-            @if(accordionItem.expanded) {
-            <div class="example-accordion-item-body" role="region"
-                [style.display]="accordionItem.expanded ? '' : 'none'" [attr.id]="'accordion-body-' + index"
-                [attr.aria-labelledby]="'accordion-header-' + index">
-                {{ currInsecticide[title.toLowerCase()] || 'No data available' }}
-            </div>
-            }
-        </cdk-accordion-item>
-        }
-    </cdk-accordion>
+    <h4 id="application">Application</h4>
+    <hr>
+    <div class="description" [innerHTML]="currInsecticide.application"></div>
+    <h4 id="legality">Legality</h4>
+    <hr>
+    <div class="description" [innerHTML]="currInsecticide.legality"></div>
+    <h4 id="pros">Pros</h4>
+    <hr>
+    <div class="description" [innerHTML]="currInsecticide.pros"></div>
+    <h4 id="cons">Cons</h4>
+    <hr>
+    <div class="description" [innerHTML]="currInsecticide.cons"></div>
+    <h4 id="notes">Notes</h4>
+    <hr>
+    <div class="description" [innerHTML]="currInsecticide.notes"></div>
 </ng-container>

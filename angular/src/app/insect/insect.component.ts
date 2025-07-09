@@ -42,4 +42,8 @@ export class InsectComponent {
     this.insectService.currInsect.next(null);
     window.history.back();
   }
+
+  legendLink(value: string): string {
+    return "/insect/" + this.currInsect.link + "#" + value;
+  }
 }

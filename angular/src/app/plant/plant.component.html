@@ -17,12 +17,13 @@
             <div class="description">
                 <span>{{currPlant.description}}</span>
                 <div class="legend">
-                    <p class="legend-title">Legend:</p>
+                    <p class="legend-title">Legend</p>
                     <ol>
-                        <li><a href="/plant/broadleaf-plantain#origins">Origins</a></li>
-                        <li><a href="/plant/broadleaf-plantain#removal">Removal</a></li>
-                        <li><a href="/plant/broadleaf-plantain#pros">Pros</a></li>
-                        <li><a href="/plant/broadleaf-plantain#cons">Cons</a></li>
+                        <li><a [href]="legendLink('origins')">Origins</a></li>
+                        <li><a [href]="legendLink('removal')">Removal</a></li>
+                        <li><a [href]="legendLink('pros')">Pros</a></li>
+                        <li><a [href]="legendLink('cons')">Cons</a></li>
+                        <li><a [href]="legendLink('notes')">Notes</a></li>
                     </ol>
                 </div>
             </div>
@@ -42,5 +43,8 @@
         <h4 id="cons">Cons</h4>
         <hr>
         <div class="description" [innerHTML]="currPlant.cons"></div>
+        <h4 id="notes">Notes</h4>
+        <hr>
+        <div class="description" [innerHTML]="currPlant.notes"></div>
     </ng-container>
 </div>

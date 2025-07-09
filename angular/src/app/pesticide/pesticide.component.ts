@@ -49,4 +49,8 @@ export class PesticideComponent implements OnInit {
     this.pesticideService.currPesticide.next(null);
     window.history.back();
   }
+
+  legendLink(value: string): string {
+    return "/herbicide/" + this.currPesticide.link + "#" + value;
+  }
 }

@@ -49,4 +49,8 @@ export class InsecticideComponent implements OnInit {
     this.insecticideService.currInsecticide.next(null);
     window.history.back();
   }
+
+  legendLink(value: string): string {
+    return "/insecticide/" + this.currInsecticide.link + "#" + value;
+  }
 }

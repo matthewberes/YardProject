@@ -38,6 +38,10 @@ export class PlantComponent implements OnInit {
     }
   }
 
+  legendLink(value: string): string {
+    return "/plant/" + this.currPlant.link + "#" + value
+  }
+
   goBack(): void {
     this.plantService.currPlant.next(null);
     window.history.back();

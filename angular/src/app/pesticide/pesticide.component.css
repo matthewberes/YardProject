@@ -35,6 +35,43 @@ h3 {
     margin-right: 15px;
 }
 
+.legend {
+    background-color: #eeeeee;
+    margin-top: 15px;
+    width: fit-content;
+    border: solid 1px black;
+    font-size: 10pt;
+}
+
+.legend-title {
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+ol {
+    counter-reset: list;
+    margin: 0px;
+    padding: 0px 0px 0px 25px;
+}
+
+ol>li:before {
+    content: counter(list) " ";
+    counter-increment: list;
+    margin-left: -1.2em;
+}
+
+li {
+    margin: 8px 0px;
+    list-style: none;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .no-pesticide {
     text-align: center;
     margin-left: auto;
@@ -51,66 +88,19 @@ h3 {
     cursor: pointer;
 }
 
-
-.example-accordion {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.example-accordion-item {
-    display: block;
-    border: solid 1px #ccc;
-}
-
-.example-accordion-item+.example-accordion-item {
-    border-top: none;
-}
-
-.example-accordion-item-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background: none;
-    border: none;
-    padding: 16px;
-    text-align: left;
-
-}
-
-.example-accordion-item-description {
-    font-size: 0.85em;
-    color: #999;
-}
-
-.example-accordion-item-body {
-    padding: 16px;
-}
-
-.example-accordion-item-header:hover {
-    cursor: pointer;
-    background-color: #eee;
-}
-
-.example-accordion-item:first-child {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
-.example-accordion-item:last-child {
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-button {
-    font-size: 14pt;
-}
-
 .buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+h4 {
+    font-size: 16pt;
+    margin: 10px 0px 0px;
+}
+
+hr {
+    margin-top: 0px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -157,4 +147,8 @@ button {
     .example-accordion-item-body {
         font-size: 18pt;
     }
+}
+
+::ng-deep .description a {
+    text-decoration: none !important;
 }
