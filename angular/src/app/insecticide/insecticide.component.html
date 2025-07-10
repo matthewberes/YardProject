@@ -14,7 +14,7 @@
     <h3>{{currInsecticide.chemical}}</h3>
     <div class="flex">
         <div class="description">
-            <span>{{currInsecticide.description}}</span>
+            <div class="description" [innerHTML]="currInsecticide.description"></div>
             <div class="legend">
                 <p class="legend-title">Legend</p>
                 <ol>

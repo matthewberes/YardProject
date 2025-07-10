@@ -4,7 +4,7 @@
             <div class="img-div">
                 <img src="{{ insect.image }}" alt="{{ insect.name }}" class="insect-image" />
             </div>
-            <div>
+            <div class="flex">
                 <h2>{{ insect.name }}</h2>
                 <h3>{{ insect.taxonomy }}</h3>
                 <div class="description" [innerHTML]="insect.description"></div>

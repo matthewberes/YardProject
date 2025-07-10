@@ -15,7 +15,7 @@
         <h3>{{currPlant.taxonomy}}</h3>
         <div class="flex">
             <div class="description">
-                <span>{{currPlant.description}}</span>
+                <div class="description" [innerHTML]="currPlant.description"></div>
                 <div class="legend">
                     <p class="legend-title">Legend</p>
                     <ol>

@@ -5,7 +5,7 @@
                 <img src="{{ pesticide.image }}" aria-label="" alt="Image of {{ pesticide.name }}"
                     class="pesticide-image" />
             </div>
-            <div>
+            <div class="flex">
                 <h2>{{ pesticide.name }}</h2>
                 <h3>{{ pesticide.chemical }}</h3>
                 <div class="description" [innerHTML]="pesticide.description"></div>

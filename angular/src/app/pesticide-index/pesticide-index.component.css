@@ -1,5 +1,6 @@
 .card {
     width: 100%;
+    height: 102px;
     display: flex;
 }
 
@@ -19,6 +20,12 @@ img {
     border: 1px solid black;
     width: 100px;
     height: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h2 {
