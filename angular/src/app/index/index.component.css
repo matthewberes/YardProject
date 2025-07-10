@@ -61,8 +61,23 @@ hr {
         margin: 10px;
     }
 
+    .card {
+        height: 152px;
+    }
+
     .flex {
         display: block;
+    }
+
+    .img-div {
+        width: 150px;
+        height: 150px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
     }
 
     h3 {
@@ -70,7 +85,8 @@ hr {
     }
 
     .description {
-        -webkit-line-clamp: 2;
-        line-clamp: 2;
+        font-size: 16pt;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
     }
 }

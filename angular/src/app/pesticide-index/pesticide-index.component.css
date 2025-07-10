@@ -95,11 +95,11 @@ hr {
 
     .description {
         width: 98.5%;
-        font-size: 14pt;
+        font-size: 16pt;
         margin: 0px 0px 5px 10px;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
-        line-clamp: 2;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
