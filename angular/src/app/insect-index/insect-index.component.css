@@ -59,6 +59,14 @@ hr {
         margin: 10px;
     }
 
+    .card {
+        height: 152px;
+    }
+
+    .flex {
+        display: block;
+    }
+
     .img-div {
         width: 150px;
         height: 150px;
