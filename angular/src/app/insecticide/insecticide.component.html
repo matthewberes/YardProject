@@ -26,15 +26,33 @@
                 </ol>
             </div>
         </div>
-        <img src="{{currInsecticide.image}}" class="image">
-        <div class="buttons">
-            <app-amazon-button [amazonLink]="currInsecticide.amazonLink"></app-amazon-button>
-            <app-canadian-tire-button [canadianTireLink]="currInsecticide.canadianTireLink"></app-canadian-tire-button>
-            <app-home-depot-button [homeDepotLink]="currInsecticide.homeDepotLink"></app-home-depot-button>
-            <app-home-hardware-button [homeHardwareLink]="currInsecticide.homeHardwareLink"></app-home-hardware-button>
-            <app-lowes-button [lowesLink]="currInsecticide.lowesLink"></app-lowes-button>
-            <app-rona-button [ronaLink]="currInsecticide.ronaLink"></app-rona-button>
-            <app-walmart-button [walmartLink]="currInsecticide.walmartLink"></app-walmart-button>
+        <div class="image-flex">
+            <img src="{{currInsecticide.image}}" class="image">
+            <div class="buttons">
+                <ng-container *ngIf="currInsecticide.amazonLink != ''">
+                    <app-amazon-button [amazonLink]="currInsecticide.amazonLink"></app-amazon-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.canadianTireLink != ''">
+                    <app-canadian-tire-button
+                        [canadianTireLink]="currInsecticide.canadianTireLink"></app-canadian-tire-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.homeDepotLink != ''">
+                    <app-home-depot-button [homeDepotLink]="currInsecticide.homeDepotLink"></app-home-depot-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.homeHardwareLink != ''">
+                    <app-home-hardware-button
+                        [homeHardwareLink]="currInsecticide.homeHardwareLink"></app-home-hardware-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.lowesLink != ''">
+                    <app-lowes-button [lowesLink]="currInsecticide.lowesLink"></app-lowes-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.ronaLink != ''">
+                    <app-rona-button [ronaLink]="currInsecticide.ronaLink"></app-rona-button>
+                </ng-container>
+                <ng-container *ngIf="currInsecticide.walmartLink != ''">
+                    <app-walmart-button [walmartLink]="currInsecticide.walmartLink"></app-walmart-button>
+                </ng-container>
+            </div>
         </div>
     </div>
 
@@ -50,7 +68,7 @@
     <h4 id="cons">Cons</h4>
     <hr>
     <div class="description" [innerHTML]="currInsecticide.cons"></div>
-    <h4 id="notes">Notes</h4>
+    <!-- <h4 id="notes">Notes</h4>
     <hr>
-    <div class="description" [innerHTML]="currInsecticide.notes"></div>
+    <div class="description" [innerHTML]="currInsecticide.notes"></div> -->
 </ng-container>

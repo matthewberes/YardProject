@@ -17,13 +17,27 @@
         <div class="image-flex">
             <img src="{{currTool.image}}" class="image">
             <div class="buttons">
-                <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
-                <app-canadian-tire-button [canadianTireLink]="currTool.canadianTireLink"></app-canadian-tire-button>
-                <app-home-depot-button [homeDepotLink]="currTool.homeDepotLink"></app-home-depot-button>
-                <app-home-hardware-button [homeHardwareLink]="currTool.homeHardwareLink"></app-home-hardware-button>
-                <app-lowes-button [lowesLink]="currTool.lowesLink"></app-lowes-button>
-                <app-rona-button [ronaLink]="currTool.ronaLink"></app-rona-button>
-                <app-walmart-button [walmartLink]="currTool.walmartLink"></app-walmart-button>
+                <ng-container *ngIf="currTool.amazonLink != ''">
+                    <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.canadianTireLink != ''">
+                    <app-canadian-tire-button [canadianTireLink]="currTool.canadianTireLink"></app-canadian-tire-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.homeDepotLink != ''">
+                    <app-home-depot-button [homeDepotLink]="currTool.homeDepotLink"></app-home-depot-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.homeHardwareLink != ''">
+                    <app-home-hardware-button [homeHardwareLink]="currTool.homeHardwareLink"></app-home-hardware-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.lowesLink != ''">
+                    <app-lowes-button [lowesLink]="currTool.lowesLink"></app-lowes-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.ronaLink != ''">
+                    <app-rona-button [ronaLink]="currTool.ronaLink"></app-rona-button>
+                </ng-container>
+                <ng-container *ngIf="currTool.walmartLink != ''">
+                    <app-walmart-button [walmartLink]="currTool.walmartLink"></app-walmart-button>
+                </ng-container>
             </div>
         </div>
     </div>
