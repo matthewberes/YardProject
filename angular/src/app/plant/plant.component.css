@@ -120,12 +120,12 @@ hr {
         font-size: 18pt;
     }
 
-    button {
-        font-size: 20pt;
+    .legend {
+        display: none;
     }
 
-    .example-accordion-item-body {
-        font-size: 18pt;
+    h4 {
+        font-size: 21pt;
     }
 }
 

@@ -1,75 +1,77 @@
-<img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
+<div class="container">
+    <img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
 
-<ng-container *ngIf="set404">
-    <h2>404 Herbicide Not Found</h2>
-    <p class="no-pesticide">
-        We don't have any data regarding this herbicide. Take a look at our
-        <a href="herbicide-index">index</a>
-        to see what we are tracking.
-    </p>
-</ng-container>
+    <ng-container *ngIf="set404">
+        <h2>404 Herbicide Not Found</h2>
+        <p class="no-pesticide">
+            We don't have any data regarding this herbicide. Take a look at our
+            <a href="herbicide-index">index</a>
+            to see what we are tracking.
+        </p>
+    </ng-container>
 
-<ng-container *ngIf="!set404">
-    <h2>{{currPesticide.name}}</h2>
-    <h3>{{currPesticide.chemical}}</h3>
-    <div class="flex">
-        <div class="description">
-            <div class="description" [innerHTML]="currPesticide.description"></div>
-            <div class="legend">
-                <p class="legend-title">Legend</p>
-                <ol>
-                    <li><a [href]="legendLink('application')">Application</a></li>
-                    <li><a [href]="legendLink('legality')">Legality</a></li>
-                    <li><a [href]="legendLink('pros')">Pros</a></li>
-                    <li><a [href]="legendLink('cons')">Cons</a></li>
-                    <li><a [href]="legendLink('notes')">Notes</a></li>
-                </ol>
+    <ng-container *ngIf="!set404">
+        <h2>{{currPesticide.name}}</h2>
+        <h3>{{currPesticide.chemical}}</h3>
+        <div class="flex">
+            <div class="description">
+                <div class="description" [innerHTML]="currPesticide.description"></div>
+                <div class="legend">
+                    <p class="legend-title">Legend</p>
+                    <ol>
+                        <li><a [href]="legendLink('application')">Application</a></li>
+                        <li><a [href]="legendLink('legality')">Legality</a></li>
+                        <li><a [href]="legendLink('pros')">Pros</a></li>
+                        <li><a [href]="legendLink('cons')">Cons</a></li>
+                        <li><a [href]="legendLink('notes')">Notes</a></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="image-flex">
+                <img src="{{currPesticide.image}}" class="image">
+                <div class="buttons">
+                    <ng-container *ngIf="currPesticide.amazonLink != ''">
+                        <app-amazon-button [amazonLink]="currPesticide.amazonLink"></app-amazon-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.canadianTireLink != ''">
+                        <app-canadian-tire-button
+                            [canadianTireLink]="currPesticide.canadianTireLink"></app-canadian-tire-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.homeDepotLink != ''">
+                        <app-home-depot-button [homeDepotLink]="currPesticide.homeDepotLink"></app-home-depot-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.homeHardwareLink != ''">
+                        <app-home-hardware-button
+                            [homeHardwareLink]="currPesticide.homeHardwareLink"></app-home-hardware-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.lowesLink != ''">
+                        <app-lowes-button [lowesLink]="currPesticide.lowesLink"></app-lowes-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.ronaLink != ''">
+                        <app-rona-button [ronaLink]="currPesticide.ronaLink"></app-rona-button>
+                    </ng-container>
+                    <ng-container *ngIf="currPesticide.walmartLink != ''">
+                        <app-walmart-button [walmartLink]="currPesticide.walmartLink"></app-walmart-button>
+                    </ng-container>
+                </div>
             </div>
         </div>
 
-        <div class="image-flex">
-            <img src="{{currPesticide.image}}" class="image">
-            <div class="buttons">
-                <ng-container *ngIf="currPesticide.amazonLink != ''">
-                    <app-amazon-button [amazonLink]="currPesticide.amazonLink"></app-amazon-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.canadianTireLink != ''">
-                    <app-canadian-tire-button
-                        [canadianTireLink]="currPesticide.canadianTireLink"></app-canadian-tire-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.homeDepotLink != ''">
-                    <app-home-depot-button [homeDepotLink]="currPesticide.homeDepotLink"></app-home-depot-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.homeHardwareLink != ''">
-                    <app-home-hardware-button
-                        [homeHardwareLink]="currPesticide.homeHardwareLink"></app-home-hardware-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.lowesLink != ''">
-                    <app-lowes-button [lowesLink]="currPesticide.lowesLink"></app-lowes-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.ronaLink != ''">
-                    <app-rona-button [ronaLink]="currPesticide.ronaLink"></app-rona-button>
-                </ng-container>
-                <ng-container *ngIf="currPesticide.walmartLink != ''">
-                    <app-walmart-button [walmartLink]="currPesticide.walmartLink"></app-walmart-button>
-                </ng-container>
-            </div>
-        </div>
-    </div>
-
-    <h4 id="application">Application</h4>
-    <hr>
-    <div class="description" [innerHTML]="currPesticide.application"></div>
-    <h4 id="legality">Legality</h4>
-    <hr>
-    <div class="description" [innerHTML]="currPesticide.legality"></div>
-    <h4 id="pros">Pros</h4>
-    <hr>
-    <div class="description" [innerHTML]="currPesticide.pros"></div>
-    <h4 id="cons">Cons</h4>
-    <hr>
-    <div class="description" [innerHTML]="currPesticide.cons"></div>
-    <!-- <h4 id="notes">Notes</h4>
+        <h4 id="application">Application</h4>
+        <hr>
+        <div class="description" [innerHTML]="currPesticide.application"></div>
+        <h4 id="legality">Legality</h4>
+        <hr>
+        <div class="description" [innerHTML]="currPesticide.legality"></div>
+        <h4 id="pros">Pros</h4>
+        <hr>
+        <div class="description" [innerHTML]="currPesticide.pros"></div>
+        <h4 id="cons">Cons</h4>
+        <hr>
+        <div class="description" [innerHTML]="currPesticide.cons"></div>
+        <!-- <h4 id="notes">Notes</h4>
     <hr>
     <div class="description" [innerHTML]="currPesticide.notes"></div> -->
-</ng-container>
+    </ng-container>
+</div>

@@ -103,19 +103,6 @@ hr {
     margin-top: 0px;
 }
 
-@media screen and (min-width: 1000px) {
-    .example-accordion {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .desktop {
-        display: none;
-    }
-}
-
-
 @media screen and (max-width: 600px) {
     .container {
         margin: 10px;
@@ -140,12 +127,17 @@ hr {
         font-size: 18pt;
     }
 
-    button {
-        font-size: 20pt;
+    .image {
+        width: 350px;
+        height: 350px;
     }
 
-    .example-accordion-item-body {
-        font-size: 18pt;
+    .legend {
+        display: none;
+    }
+
+    h4 {
+        font-size: 21pt;
     }
 }
 

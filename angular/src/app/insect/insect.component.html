@@ -1,47 +1,49 @@
-<img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
+<div class="container">
+    <img src="left-arrow.png" class="back-arrow" tabindex="0" (click)="goBack()" (keyup.enter)="goBack()" alt="Back">
 
-<ng-container *ngIf="set404">
-    <h2>404 Insect Not Found</h2>
-    <p class="no-insect">
-        We don't have any data regarding this insect. Take a look at our
-        <a href="insect-index">index</a>
-        to see what we are tracking.
-    </p>
-</ng-container>
+    <ng-container *ngIf="set404">
+        <h2>404 Insect Not Found</h2>
+        <p class="no-insect">
+            We don't have any data regarding this insect. Take a look at our
+            <a href="insect-index">index</a>
+            to see what we are tracking.
+        </p>
+    </ng-container>
 
-<ng-container *ngIf="!set404">
-    <h2>{{currInsect.name}}</h2>
-    <h3>{{currInsect.taxonomy}}</h3>
-    <div class="flex">
-        <div class="description">
-            <div class="description" [innerHTML]="currInsect.description"></div>
-            <div class="legend">
-                <p class="legend-title">Legend</p>
-                <ol>
-                    <li><a [href]="legendLink('identification')">Identification</a></li>
-                    <li><a [href]="legendLink('removal')">Removal</a></li>
-                    <li><a [href]="legendLink('origins')">Origins</a></li>
-                    <li><a [href]="legendLink('lifecycle')">Life cycle</a></li>
-                    <li><a [href]="legendLink('notes')">Notes</a></li>
-                </ol>
+    <ng-container *ngIf="!set404">
+        <h2>{{currInsect.name}}</h2>
+        <h3>{{currInsect.taxonomy}}</h3>
+        <div class="flex">
+            <div class="description">
+                <div class="description" [innerHTML]="currInsect.description"></div>
+                <div class="legend">
+                    <p class="legend-title">Legend</p>
+                    <ol>
+                        <li><a [href]="legendLink('identification')">Identification</a></li>
+                        <li><a [href]="legendLink('removal')">Removal</a></li>
+                        <li><a [href]="legendLink('origins')">Origins</a></li>
+                        <li><a [href]="legendLink('lifecycle')">Life cycle</a></li>
+                        <li><a [href]="legendLink('notes')">Notes</a></li>
+                    </ol>
+                </div>
             </div>
+            <img src="{{currInsect.image}}" class="image">
         </div>
-        <img src="{{currInsect.image}}" class="image">
-    </div>
 
-    <h4 id="identification">Identification</h4>
-    <hr>
-    <div class="description" [innerHTML]="currInsect.identification"></div>
-    <h4 id="removal">Removal</h4>
-    <hr>
-    <div class="description" [innerHTML]="currInsect.removal"></div>
-    <h4 id="origins">Origins</h4>
-    <hr>
-    <div class="description" [innerHTML]="currInsect.origins"></div>
-    <h4 id="lifecycle">Life cycle</h4>
-    <hr>
-    <div class="description" [innerHTML]="currInsect.lifeCycle"></div>
-    <!-- <h4 id="notes">Notes</h4>
+        <h4 id="identification">Identification</h4>
+        <hr>
+        <div class="description" [innerHTML]="currInsect.identification"></div>
+        <h4 id="removal">Removal</h4>
+        <hr>
+        <div class="description" [innerHTML]="currInsect.removal"></div>
+        <h4 id="origins">Origins</h4>
+        <hr>
+        <div class="description" [innerHTML]="currInsect.origins"></div>
+        <h4 id="lifecycle">Life cycle</h4>
+        <hr>
+        <div class="description" [innerHTML]="currInsect.lifeCycle"></div>
+        <!-- <h4 id="notes">Notes</h4>
     <hr>
     <div class="description" [innerHTML]="currInsect.notes"></div> -->
-</ng-container>
+    </ng-container>
+</div>
