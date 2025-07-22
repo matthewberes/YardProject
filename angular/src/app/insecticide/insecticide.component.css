@@ -116,6 +116,7 @@ hr {
         margin-top: 5px;
         width: 100%;
         font-size: 28pt;
+        width: 500px;
     }
 
     h3 {
@@ -124,7 +125,7 @@ hr {
     }
 
     .description {
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
     .image {
