@@ -15,7 +15,7 @@ export class ContactComponent {
   onClick(val: string) {
     switch (val) {
       case "email":
-        window.location.href = "mailto:mattyberes@gmail.com";
+        window.location.href = "mailto:canadalawnguide@gmail.com";
         break;
       case "text":
         window.location.href = "sms:6136390199";
