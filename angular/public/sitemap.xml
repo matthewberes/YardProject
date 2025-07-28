@@ -1,314 +1,310 @@
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap>
+<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
         <loc>https://www.canadalawnguide.com/about</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/contact</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicides</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/home</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticides</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insects</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/maintenance</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plants</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/sitemap</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tools</loc>
-    </sitemap>
-    <!-- Subpages for herbicides -->
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/bayer-advanced-all-in-one</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/dow-scythe</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/gordons-trimec</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/green-earth-weed-control</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/loveland-par-iii</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/neudorff-fiesta</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/ortho-killex</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/roundup</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/roundup-advanced-herbicidal-soap</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/safers-topgun-weed-killer</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/scotts-weed-b-gon-max</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/spectracide-weed-stop</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/totalex-grass-and-weed-killer</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/herbicide/wilson-weed-out</loc>
-    </sitemap>
-    <!-- Subpages for insecticides -->
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/bayer-advanced-complete</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/bonide-insecticidal-soap</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/bonide-pyrethrin-garden-insect-spray</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>
             https://www.canadalawnguide.com/insecticide/doktor-doom-premium-3-in-1-crop-plant-rescue</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>
             https://www.canadalawnguide.com/insecticide/doktor-doom-premium-insecticidal-soap-concentrate</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/green-earth-horticultural-oil</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/loveland-lagon</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/onguard-pro-perm</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/onguard-professional-p-22-rtu</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/ortho-ant-b-gon-max</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/ortho-bug-b-gon-eco</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/ortho-home-defense</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/ortho-slug-b-gon-eco</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>
             https://www.canadalawnguide.com/insecticide/puroguard-the-exterminator-professional-py-42</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/safers-3-in-1</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/safers-end-all</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/safers-insecticidal-soap</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/safers-slug-snail-killer</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/safers-trounce-yard-garden</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/scotts-grub-b-gon-max</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>
             https://www.canadalawnguide.com/insecticide/superior-control-products-spider-insect-destroyer</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/wilson-ant-out</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/wilson-bug-x-out</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/wilson-bug-x-out-soap</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/wilson-crawl-out</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insecticide/wilson-grub-out</loc>
-    </sitemap>
-    <!-- Subpages for insects -->
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/ant</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/aphid</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/armyworm</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/billbug</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/chinch-bug</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/cutworm</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/earwig</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/japanese-beetle</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/leafhopper</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/leatherjacket</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/mole-cricket</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/sod-webworm</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/spider-mite</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/insect/turfgrass-scale</loc>
-    </sitemap>
-    <!-- Subpages for plants -->
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/broadleaf-plantain</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/common-cinquefoil</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/common-dandelion</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/common-selfheal</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/common-yarrow</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/corn-speedwell</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/creeping-charlie</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/field-horsetail</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/garden-sorrel</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/hedge-bedstraw</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/hoary-alyssum</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/horseweed</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/orange-hawkweed</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/prarie-agoseris</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/red-clover</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/ribwort-plantain</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/rough-hawkbit</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/silver-cinquefoil</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/vipers-bugloss</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/white-clover</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/plant/wild-strawberry</loc>
-    </sitemap>
-    <!-- Subpages for tools -->
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/greenworks-dethatcher</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/long-handle-weed-remover</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/mini-broadcast-spreader</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/pro-broadcast-spreader</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/pump-pressured-backpack-sprayer</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/sun-joe-dethatcher</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/weeding-tool-with-4-claws</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/battery-edger</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/battery-mower</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/battery-blower</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/corded-edger</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/corded-mower</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/corded-blower</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/backpack-blower</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/aerator</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://www.canadalawnguide.com/tool/manual-edger</loc>
-    </sitemap>
-</sitemapindex>
+    </url>
+</urlset>

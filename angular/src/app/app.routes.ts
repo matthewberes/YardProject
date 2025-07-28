@@ -14,22 +14,27 @@ import { InsecticideComponent } from './insecticide/insecticide.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
+import { InsectResolverService } from './insect-resolver.service';
+import { InsecticideResolverService } from './insecticide-resolver.service';
+import { ToolResolverService } from './tool-resolver.service';
+import { PesticideResolverService } from './pesticide-resolver.service';
+import { PlantResolverService } from './plant-resolver.service';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent },
-    { path: 'maintenance', component: MaintenanceComponent },
-    { path: 'plants', component: IndexComponent },
-    { path: 'plant/:plant', component: PlantComponent },
-    { path: 'herbicides', component: PesticideIndexComponent },
-    { path: 'herbicide/:herbicide', component: PesticideComponent },
-    { path: 'tools', component: ToolIndexComponent },
-    { path: 'tool/:tool', component: ToolComponent },
-    { path: 'insects', component: InsectIndexComponent },
-    { path: 'insect/:insect', component: InsectComponent },
-    { path: 'insecticides', component: InsecticideIndexComponent },
-    { path: 'insecticide/:insecticide', component: InsecticideComponent },
-    { path: 'about', component: AboutComponent },
-    { path: 'contact', component: ContactComponent },
-    { path: 'sitemap', component: SitemapComponent },
+    { path: 'home', component: HomeComponent, title: 'Canada Lawn Guide' },
+    { path: 'maintenance', component: MaintenanceComponent, title: 'Maintenance - Canada Lawn Guide' },
+    { path: 'plants', component: IndexComponent, title: 'Plants - Canada Lawn Guide' },
+    { path: 'plant/:plant', component: PlantComponent, title: PlantResolverService },
+    { path: 'herbicides', component: PesticideIndexComponent, title: 'Herbicides - Canada Lawn Guide' },
+    { path: 'herbicide/:herbicide', component: PesticideComponent, title: PesticideResolverService },
+    { path: 'tools', component: ToolIndexComponent, title: 'Tools - Canada Lawn Guide' },
+    { path: 'tool/:tool', component: ToolComponent, title: ToolResolverService },
+    { path: 'insects', component: InsectIndexComponent, title: 'Insects - Canada Lawn Guide' },
+    { path: 'insect/:insect', component: InsectComponent, title: InsectResolverService },
+    { path: 'insecticides', component: InsecticideIndexComponent, title: 'Insecticides - Canada Lawn Guide' },
+    { path: 'insecticide/:insecticide', component: InsecticideComponent, title: InsecticideResolverService },
+    { path: 'about', component: AboutComponent, title: 'About - Canada Lawn Guide' },
+    { path: 'contact', component: ContactComponent, title: 'Contact - Canada Lawn Guide' },
+    { path: 'sitemap', component: SitemapComponent, title: 'Sitemap - Canada Lawn Guide' },
 ];
