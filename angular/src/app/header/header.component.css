@@ -10,19 +10,8 @@
 img {
     width: auto;
     height: 6cqw;
-    min-width: 60px;
-    min-height: 60px;
 }
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: .1px;
-    -webkit-text-stroke-color: black;
-    color: yellow;
-    font-size: 3cqw;
-}
 
 .taskbar {
     display: flex;
@@ -42,14 +31,17 @@ h1 {
     cursor: pointer;
 }
 
+.hamburger {
+    margin: -7px -6px 0px 0px;
+}
+
 mat-icon {
-    font-size: 100px;
-    width: 100px;
-    height: 100px;
-    margin: 15px 5px;
+    font-size: 17px;
+    width: 17px;
+    height: 17px;
     color: yellow;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: black;
 }
 
@@ -65,7 +57,6 @@ mat-icon {
 
 .menuBlur {
     height: 100%;
-    width: 100%;
     width: 20%;
     background-color: black;
     opacity: .5;
@@ -73,7 +64,6 @@ mat-icon {
 
 .menuBox {
     height: 100%;
-    width: 100%;
     width: 80%;
     background-color: #f4f3f2;
 }
@@ -105,13 +95,6 @@ mat-icon {
     color: rgb(189, 189, 14);
 }
 
-@media screen and (max-width: 1000px) {
-    h1 {
-        font-size: 22.5pt;
-    }
-
-}
-
 @media only screen and (min-width: 1000px) {
     .contactMobile {
         display: none;
@@ -123,13 +106,13 @@ mat-icon {
 }
 
 @media screen and (max-width: 600px) {
-    h1 {
-        font-size: 42.5pt;
-        -webkit-text-stroke-width: 1px;
+    img {
+        min-height: 14px;
     }
 
-    img {
-        height: 110px;
+    .logo {
+
+        margin: -3px 0px 0px -3px;
     }
 
     .taskbar {
