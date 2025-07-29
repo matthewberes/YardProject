@@ -21,7 +21,7 @@ import { PesticideResolverService } from './pesticide-resolver.service';
 import { PlantResolverService } from './plant-resolver.service';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent, title: 'Canada Lawn Guide' },
     { path: 'maintenance', component: MaintenanceComponent, title: 'Maintenance - Canada Lawn Guide' },
     { path: 'plants', component: IndexComponent, title: 'Plants - Canada Lawn Guide' },
@@ -37,4 +37,5 @@ export const routes: Routes = [
     { path: 'about', component: AboutComponent, title: 'About - Canada Lawn Guide' },
     { path: 'contact', component: ContactComponent, title: 'Contact - Canada Lawn Guide' },
     { path: 'sitemap', component: SitemapComponent, title: 'Sitemap - Canada Lawn Guide' },
+    { path: '**', redirectTo: 'home' },
 ];
