@@ -63,6 +63,7 @@ router-outlet {
         width: 98.75%;
         margin: 0%;
         height: 100%;
+        min-height: 1100px;
     }
 
     .footer {
