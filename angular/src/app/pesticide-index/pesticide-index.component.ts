@@ -16,6 +16,7 @@ export class PesticideIndexComponent {
   constructor(private http: HttpClient, private router: Router, private pesticideService: PesticideService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.http.get<any>('pesticide-index.json').subscribe(data => {
       this.pesticides = data.pesticides;
       this.pesticideService.allPesticides = data.pesticides;

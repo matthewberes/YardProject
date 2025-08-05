@@ -16,6 +16,7 @@ export class InsectIndexComponent {
   constructor(private http: HttpClient, private router: Router, private insectService: InsectService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.http.get<any>('insect-index.json').subscribe(data => {
       this.insects = data.insects;
       this.insectService.allInsects = data.insecticides;

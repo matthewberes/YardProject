@@ -21,6 +21,7 @@ export class PlantComponent implements OnInit {
   expandedIndex = 0;
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     if (this.plantService.currPlant.value) {
       this.currPlant = this.plantService.currPlant.value;
       this.set404 = false

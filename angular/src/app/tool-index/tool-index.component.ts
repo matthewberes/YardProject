@@ -17,6 +17,7 @@ export class ToolIndexComponent {
   constructor(private http: HttpClient, private router: Router, private toolService: ToolService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.http.get<any>('tool-index.json').subscribe(data => {
       this.tools = data.tools;
       this.toolService.allTools = data.tools;

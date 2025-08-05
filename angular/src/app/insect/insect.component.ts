@@ -21,6 +21,7 @@ export class InsectComponent {
   expandedIndex = 0;
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     if (this.insectService.currInsect.value) {
       this.currInsect = this.insectService.currInsect.value;
       this.set404 = false

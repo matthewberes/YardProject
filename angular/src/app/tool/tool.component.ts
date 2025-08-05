@@ -28,6 +28,7 @@ export class ToolComponent {
   expandedIndex = 0;
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     if (this.toolService.currTool.value) {
       this.currTool = this.toolService.currTool.value;
       this.set404 = false

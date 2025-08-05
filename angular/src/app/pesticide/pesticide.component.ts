@@ -28,6 +28,7 @@ export class PesticideComponent implements OnInit {
   expandedIndex = 0;
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     if (this.pesticideService.currPesticide.value) {
       this.currPesticide = this.pesticideService.currPesticide.value;
       this.set404 = false

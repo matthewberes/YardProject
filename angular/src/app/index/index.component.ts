@@ -16,6 +16,7 @@ export class IndexComponent implements OnInit {
   constructor(private http: HttpClient, private router: Router, private plantService: PlantService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.http.get<any>('plant-index.json').subscribe(data => {
       this.plants = data.plants;
       this.plantService.allPlants = data.plants;

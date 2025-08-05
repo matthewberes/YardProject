@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-maintenance',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   templateUrl: './maintenance.component.html',
   styleUrl: './maintenance.component.css'
 })
-export class MaintenanceComponent {
+export class MaintenanceComponent implements OnInit {
+  constructor() { }
+
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
+
 
 }

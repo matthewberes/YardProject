@@ -28,6 +28,7 @@ export class InsecticideComponent implements OnInit {
   expandedIndex = 0;
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     if (this.insecticideService.currInsecticide.value) {
       this.currInsecticide = this.insecticideService.currInsecticide.value;
       this.set404 = false
