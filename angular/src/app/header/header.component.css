@@ -102,7 +102,7 @@ mat-icon {
 }
 
 .selected {
-    color: rgb(189, 189, 14);
+    color: rgb(2, 122, 41, 2);
 }
 
 @media screen and (max-width: 1000px) {

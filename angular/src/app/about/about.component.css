@@ -34,7 +34,7 @@ h2 {
 button {
     width: 140px;
     height: 35px;
-    background-color: rgba(0, 155, 58, .7);
+    background-color: rgba(2, 122, 41, 0.7);
     color: #fafafa;
     font-size: 13pt;
     border: none;
@@ -42,7 +42,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: rgba(0, 155, 58, .4);
+    background-color: rgba(2, 122, 41, 0.4);
     cursor: pointer;
 }
 

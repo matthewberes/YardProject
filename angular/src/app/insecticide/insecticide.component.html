@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="image-flex">
-                <img src="{{currInsecticide.image}}" class="image">
+                <img src="{{currInsecticide.image}}" class="image" alt="{{currInsecticide.name}} image">
                 <div class="buttons">
                     <ng-container *ngIf="currInsecticide.amazonLink != ''">
                         <app-amazon-button [amazonLink]="currInsecticide.amazonLink"></app-amazon-button>

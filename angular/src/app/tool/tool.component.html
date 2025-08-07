@@ -16,7 +16,7 @@
         <div class="flex">
             <div class="description" [innerHTML]="currTool.description"></div>
             <div class="image-flex">
-                <img src="{{currTool.image}}" class="image">
+                <img src="{{currTool.image}}" class="image" alt="{{currTool.name}} image">
                 <div class="buttons">
                     <ng-container *ngIf="currTool.amazonLink != ''">
                         <app-amazon-button [amazonLink]="currTool.amazonLink"></app-amazon-button>
